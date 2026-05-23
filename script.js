@@ -1,0 +1,14 @@
+
+function filterTools(cat, btn){
+  document.querySelectorAll('.tool').forEach(t=>{
+    t.style.display = (cat==='all' || t.dataset.cat.includes(cat)) ? 'flex' : 'none';
+  });
+  document.querySelectorAll('.filterbar button').forEach(b=>b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+}
+function copyPrompt(id){
+  const el=document.getElementById(id);
+  const text=el.innerText.replace('Kopyala','').trim();
+  navigator.clipboard.writeText(text);
+  alert('Prompt kopyalandı');
+}
