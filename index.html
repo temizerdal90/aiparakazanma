@@ -1,51 +1,402 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Para Kazanma</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Para Kazanma | Yapay Zekâ İş Fikirleri ve Hesaplama Araçları</title>
+  <meta name="description" content="Yapay zekâ ile yapılabilecek işleri keşfet. AI gelir hesaplama, freelance fiyat hesaplama, araç maliyeti ve hazır ChatGPT promptları." />
   <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f7fb;
+      color: #111827;
+    }
+    a { color: inherit; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid #e5e7eb;
+      padding: 16px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .logo {
+      font-weight: 900;
+      font-size: 22px;
+      letter-spacing: -0.4px;
+    }
+    .logo span { color: #16a34a; }
+    nav {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 14px;
+      color: #4b5563;
+      font-weight: 700;
+    }
+    nav a { text-decoration: none; }
+    .hero {
+      padding: 78px 7% 60px;
+      background: radial-gradient(circle at top right, #22c55e 0, transparent 30%), linear-gradient(135deg, #0f172a, #111827 55%, #020617);
       color: white;
-      text-align: center;
-      padding: 80px 20px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 34px;
+      align-items: center;
     }
-    .box {
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(34,197,94,.16);
+      color: #bbf7d0;
+      border: 1px solid rgba(34,197,94,.32);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 18px;
+    }
+    .hero h1 {
+      margin: 0 0 18px;
+      font-size: 50px;
+      line-height: 1.05;
+      letter-spacing: -1.4px;
+    }
+    .hero p {
+      margin: 0 0 28px;
+      color: #d1d5db;
+      font-size: 18px;
+      line-height: 1.65;
+      max-width: 680px;
+    }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      border: 0;
+      cursor: pointer;
+      padding: 14px 20px;
+      border-radius: 14px;
+      font-weight: 900;
+      font-size: 15px;
+    }
+    .btn-primary { background: #22c55e; color: #052e16; }
+    .btn-secondary { background: white; color: #111827; }
+    .hero-card {
+      background: rgba(255,255,255,.96);
+      color: #111827;
+      border-radius: 26px;
+      padding: 26px;
+      box-shadow: 0 28px 80px rgba(0,0,0,.32);
+    }
+    .hero-card h3 { margin: 0 0 10px; font-size: 24px; }
+    .hero-card p { color: #6b7280; font-size: 15px; margin-bottom: 16px; }
+    .mini-list { display: grid; gap: 10px; }
+    .mini-list div {
+      background: #f3f4f6;
+      padding: 13px;
+      border-radius: 14px;
+      font-weight: 800;
+      color: #374151;
+    }
+    section { padding: 58px 7%; }
+    .section-title {
+      margin: 0 0 10px;
+      font-size: 34px;
+      letter-spacing: -0.8px;
+    }
+    .section-sub {
+      margin: 0 0 28px;
+      color: #6b7280;
+      font-size: 16px;
+      line-height: 1.55;
       max-width: 800px;
-      margin: auto;
-      background: #111827;
-      padding: 40px;
-      border-radius: 24px;
-      box-shadow: 0 20px 50px rgba(0,0,0,.3);
     }
-    h1 {
-      font-size: 42px;
-      margin-bottom: 16px;
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
     }
-    p {
-      font-size: 20px;
-      color: #cbd5e1;
-      line-height: 1.6;
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
     }
+    .card, .calculator {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: 0 10px 28px rgba(17,24,39,.06);
+    }
+    .card h3, .calculator h3 { margin: 0 0 10px; font-size: 22px; }
+    .card p { color: #6b7280; line-height: 1.55; margin: 0; }
     .tag {
       display: inline-block;
-      margin-top: 20px;
-      background: #22c55e;
-      color: #06240f;
-      padding: 12px 18px;
+      margin-bottom: 12px;
+      background: #ecfdf5;
+      color: #166534;
       border-radius: 999px;
-      font-weight: bold;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .dark {
+      background: #0f172a;
+      color: white;
+    }
+    .dark .section-sub { color: #cbd5e1; }
+    label {
+      display: block;
+      margin: 14px 0 7px;
+      font-weight: 800;
+      color: #374151;
+      font-size: 14px;
+    }
+    input, select {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #d1d5db;
+      border-radius: 13px;
+      font-size: 15px;
+      background: white;
+    }
+    .result {
+      margin-top: 16px;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #14532d;
+      padding: 16px;
+      border-radius: 16px;
+      font-weight: 800;
+      line-height: 1.6;
+    }
+    .prompt {
+      background: #111827;
+      color: #f9fafb;
+      border-radius: 18px;
+      padding: 18px;
+      line-height: 1.55;
+      font-size: 14px;
+      min-height: 170px;
+    }
+    .prompt strong { color: #86efac; }
+    .steps {
+      background: white;
+      border-radius: 26px;
+      padding: 28px;
+      box-shadow: 0 10px 28px rgba(17,24,39,.06);
+      border: 1px solid #e5e7eb;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 14px;
+      padding: 16px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .step:last-child { border-bottom: 0; }
+    .num {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #22c55e;
+      color: #052e16;
+      font-weight: 900;
+    }
+    .step h4 { margin: 0 0 5px; }
+    .step p { margin: 0; color: #6b7280; line-height: 1.45; }
+    footer {
+      padding: 30px 7%;
+      text-align: center;
+      color: #6b7280;
+      border-top: 1px solid #e5e7eb;
+      background: white;
+    }
+    @media (max-width: 900px) {
+      header { align-items: flex-start; flex-direction: column; }
+      .hero { grid-template-columns: 1fr; padding-top: 54px; }
+      .hero h1 { font-size: 38px; }
+      .grid-3, .grid-2 { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>AI Para Kazanma</h1>
-    <p>Yapay zekâ ile yapılabilecek işleri, promptları ve hesaplama araçlarını keşfet.</p>
-    <div class="tag">Site yakında yayında</div>
-  </div>
+  <header>
+    <div class="logo">AI <span>Para Kazanma</span></div>
+    <nav>
+      <a href="#fikirler">İş Fikirleri</a>
+      <a href="#hesaplamalar">Hesaplamalar</a>
+      <a href="#promptlar">Promptlar</a>
+      <a href="#basla">Başlangıç</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <div class="badge">Yeni başlayanlar için gerçekçi AI rehberi</div>
+        <h1>Yapay zekâ ile ne yapacağını hesapla, öğren ve başla.</h1>
+        <p>AI araçlarıyla yapılabilecek işleri, tahmini gelir ihtimalini, freelance fiyatını, araç maliyetini ve hazır promptları tek yerde keşfet.</p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="#hesaplamalar">Hesaplama Araçlarını Aç</a>
+          <a class="btn btn-secondary" href="#basla">7 Günlük Plana Bak</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Bu site ne işe yarar?</h3>
+        <p>Okumakla kalmazsın; kendi zamanına, maliyetine ve hedeflerine göre hesap yaparsın.</p>
+        <div class="mini-list">
+          <div>✓ AI gelir ihtimali hesapla</div>
+          <div>✓ Freelance iş fiyatı çıkar</div>
+          <div>✓ Aylık AI araç maliyetini gör</div>
+          <div>✓ Hazır ChatGPT promptları kullan</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fikirler">
+      <h2 class="section-title">AI ile yapılabilecek işler</h2>
+      <p class="section-sub">Buradaki fikirler uçuk vaat değil; yeni başlayan birinin deneyebileceği dijital üretim alanlarıdır.</p>
+      <div class="grid-3">
+        <div class="card">
+          <span class="tag">İçerik</span>
+          <h3>Kısa video üretimi</h3>
+          <p>YouTube Shorts, TikTok ve Reels için konu, başlık, metin ve kurgu fikri üretme.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Metin</span>
+          <h3>Ürün açıklaması</h3>
+          <p>Instagram, e-ticaret ve küçük işletmeler için ürün açıklaması ve reklam metni hazırlama.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Tasarım</span>
+          <h3>Görsel fikirleri</h3>
+          <p>Afiş, kapak, sosyal medya postu ve logo fikri için yapay zekâ destekli tasarım metni oluşturma.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hesaplamalar" class="dark">
+      <h2 class="section-title">AI hesaplama araçları</h2>
+      <p class="section-sub">Rakamlar tahmini sonuç verir. Amaç gerçekçi düşünmek ve başlangıç planını daha net görmek.</p>
+      <div class="grid-3">
+        <div class="calculator">
+          <h3>AI Gelir Hesaplama</h3>
+          <label>Günde kaç saat ayırabilirsin?</label>
+          <input id="hours" type="number" value="2" min="0" />
+          <label>Bir küçük iş için ortalama fiyatın kaç TL?</label>
+          <input id="price" type="number" value="300" min="0" />
+          <label>Ayda kaç müşteri / iş hedefliyorsun?</label>
+          <input id="jobs" type="number" value="10" min="0" />
+          <button class="btn btn-primary" onclick="calcIncome()">Hesapla</button>
+          <div id="incomeResult" class="result">Sonucu görmek için hesapla.</div>
+        </div>
+
+        <div class="calculator">
+          <h3>Freelance Fiyat Hesaplama</h3>
+          <label>İş kaç dakika sürüyor?</label>
+          <input id="minutes" type="number" value="45" min="0" />
+          <label>Saatlik hedef kazanç kaç TL?</label>
+          <input id="hourly" type="number" value="250" min="0" />
+          <label>Ek maliyet / araç payı kaç TL?</label>
+          <input id="cost" type="number" value="50" min="0" />
+          <button class="btn btn-primary" onclick="calcPrice()">Fiyat Öner</button>
+          <div id="priceResult" class="result">Sonucu görmek için hesapla.</div>
+        </div>
+
+        <div class="calculator">
+          <h3>AI Araç Maliyeti</h3>
+          <label>Aylık ChatGPT / AI aboneliği TL</label>
+          <input id="tool1" type="number" value="750" min="0" />
+          <label>Canva / görsel araçları TL</label>
+          <input id="tool2" type="number" value="0" min="0" />
+          <label>Diğer araçlar TL</label>
+          <input id="tool3" type="number" value="0" min="0" />
+          <button class="btn btn-primary" onclick="calcTools()">Maliyeti Hesapla</button>
+          <div id="toolResult" class="result">Sonucu görmek için hesapla.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="promptlar">
+      <h2 class="section-title">Hazır promptlar</h2>
+      <p class="section-sub">Kopyala, kendi işine göre düzenle ve ChatGPT’de kullan.</p>
+      <div class="grid-3">
+        <div class="prompt"><strong>YouTube Shorts fikri:</strong><br><br>“Bana [konu] hakkında merak uyandıran, 30 saniyelik YouTube Shorts fikirleri ver. Her fikir için başlık, ilk 3 saniye kancası ve kısa senaryo yaz.”</div>
+        <div class="prompt"><strong>Ürün açıklaması:</strong><br><br>“Şu ürün için satış odaklı ama abartısız bir açıklama yaz: [ürün]. Hedef kitle: [kitle]. Başlık, kısa açıklama ve 5 fayda maddesi ver.”</div>
+        <div class="prompt"><strong>Freelance teklif:</strong><br><br>“Bir müşteriye [hizmet] için profesyonel ama samimi teklif mesajı yaz. Kısa, güven veren ve WhatsApp’tan gönderilebilir olsun.”</div>
+      </div>
+    </section>
+
+    <section id="basla">
+      <h2 class="section-title">7 günlük başlangıç planı</h2>
+      <p class="section-sub">Nereden başlayacağını bilmiyorsan önce basit üretim planı yap. Amaç ilk hafta para değil, sistem kurmak.</p>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><div><h4>Alanını seç</h4><p>Metin, görsel, video veya hesaplama araçlarından birine odaklan.</p></div></div>
+        <div class="step"><div class="num">2</div><div><h4>Ücretsiz araçları belirle</h4><p>ChatGPT, Canva, CapCut, Google Dokümanlar gibi araçlarla başla.</p></div></div>
+        <div class="step"><div class="num">3</div><div><h4>5 örnek çalışma üret</h4><p>CV metni, reklam yazısı, video fikri, afiş fikri gibi örnekler çıkar.</p></div></div>
+        <div class="step"><div class="num">4</div><div><h4>Hesaplama yap</h4><p>Zamanını, maliyetini ve hedefini yukarıdaki araçlarla gerçekçi şekilde gör.</p></div></div>
+        <div class="step"><div class="num">5</div><div><h4>Devam planı çıkar</h4><p>İlk hafta sonunda hangi alan sana daha uygun karar ver.</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 AI Para Kazanma — Yapay zekâ iş fikirleri, hesaplama araçları ve başlangıç rehberleri.
+  </footer>
+
+  <script>
+    function formatTL(n) {
+      return new Intl.NumberFormat('tr-TR').format(Math.round(n)) + ' TL';
+    }
+
+    function calcIncome() {
+      const hours = Number(document.getElementById('hours').value || 0);
+      const price = Number(document.getElementById('price').value || 0);
+      const jobs = Number(document.getElementById('jobs').value || 0);
+      const monthly = price * jobs;
+      const dailyWork = hours * 30;
+      document.getElementById('incomeResult').innerHTML =
+        'Tahmini aylık gelir: ' + formatTL(monthly) + '<br>' +
+        'Aylık ayıracağın süre: yaklaşık ' + dailyWork + ' saat<br>' +
+        'Gerçekçi not: İlk hedef müşteri bulmak değil, önce örnek üretmek olmalı.';
+    }
+
+    function calcPrice() {
+      const minutes = Number(document.getElementById('minutes').value || 0);
+      const hourly = Number(document.getElementById('hourly').value || 0);
+      const cost = Number(document.getElementById('cost').value || 0);
+      const base = (minutes / 60) * hourly + cost;
+      const safe = base * 1.3;
+      document.getElementById('priceResult').innerHTML =
+        'Minimum fiyat: ' + formatTL(base) + '<br>' +
+        'Daha sağlıklı fiyat: ' + formatTL(safe) + '<br>' +
+        'Not: Çok düşük fiyat vermek işi büyütmeyi zorlaştırır.';
+    }
+
+    function calcTools() {
+      const t1 = Number(document.getElementById('tool1').value || 0);
+      const t2 = Number(document.getElementById('tool2').value || 0);
+      const t3 = Number(document.getElementById('tool3').value || 0);
+      const total = t1 + t2 + t3;
+      const jobsNeeded = Math.ceil(total / 300);
+      document.getElementById('toolResult').innerHTML =
+        'Aylık toplam araç maliyeti: ' + formatTL(total) + '<br>' +
+        '300 TL’lik işlerden maliyeti çıkarmak için gereken adet: ' + jobsNeeded + '<br>' +
+        'Not: Başlangıçta mümkün olduğunca ücretsiz araçlarla ilerle.';
+    }
+  </script>
 </body>
 </html>
