@@ -369,3 +369,22 @@ body.theme-tools .badge{background:#dcfce7!important;color:#166534!important}
 .calc-result{margin-top:14px;background:#ecfdf5;border:1px solid #bbf7d0;color:#14532d;border-radius:16px;padding:14px;line-height:1.55;font-weight:800}
 .tool-note{background:#eff6ff;border:1px solid #bfdbfe;color:#1e3a8a;border-radius:18px;padding:16px;line-height:1.6;margin-top:16px}
 @media(max-width:1000px){.calc-grid{grid-template-columns:1fr}}
+
+
+/* Step 14 araçlar sayfası zenginleştirme */
+.tool-highlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tool-highlight{background:#fff;border:1px solid #e5e7eb;border-radius:26px;padding:24px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.tool-highlight .mini-icon{width:58px;height:58px;border-radius:18px;display:grid;place-items:center;font-size:30px;background:linear-gradient(135deg,#dcfce7,#dbeafe);margin-bottom:14px}
+.tool-highlight h3{font-size:23px;margin:0 0 8px}
+.tool-highlight p{color:#4b5563;line-height:1.65}
+.tool-highlight ul{padding-left:20px;color:#4b5563;line-height:1.7}
+.tool-funnel{background:linear-gradient(135deg,#052e16,#0f172a);color:#fff;border-radius:30px;padding:34px;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+.tool-funnel p{color:#d1d5db;line-height:1.65}
+.funnel-steps{display:grid;gap:10px}
+.funnel-step{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:14px}
+.funnel-step b{color:#86efac}
+.tool-warning{background:#fff7ed;border:1px solid #fed7aa;color:#7c2d12;border-radius:20px;padding:18px;line-height:1.65;margin-top:18px}
+.recommend-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:20px;padding:18px;color:#14532d;line-height:1.65}
+.tool-hero-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.tool-hero-tags span{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff;border-radius:999px;padding:9px 12px;font-weight:900;font-size:13px}
+@media(max-width:1000px){.tool-highlight-grid,.tool-funnel{grid-template-columns:1fr}}
