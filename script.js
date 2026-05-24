@@ -23,6 +23,7 @@ function copyPrompt(id){
 
 
 const SITE_SEARCH_INDEX = [
+  {title:"AI Hesaplamalar", url:"hesaplamalar.html", desc:"Araç maliyeti, içerik üretim süresi ve tahmini gelir hesaplama.", keywords:"hesaplama araç maliyeti içerik süresi rpm adsense"},
   {title:'Ana Sayfa', url:'index.html', desc:'AI para kazanma rehberi, ana bölümler ve başlangıç.', keywords:'ana sayfa ai para kazanma yapay zeka rehber'},
   {title:'Rehberler', url:'rehberler.html', desc:'Instagram, YouTube, TikTok, AI video ve SEO rehberleri.', keywords:'rehberler instagram youtube tiktok ai video seo'},
   {title:'Instagram AI Rehberi', url:'instagram.html', desc:'Instagram Reels, kaydırmalı paylaşım, hikâye ve içerik planı.', keywords:'instagram reels carousel hikaye post prompt'},
@@ -91,4 +92,30 @@ function copyPromptText(id){
   const text=el ? el.innerText.trim() : "";
   navigator.clipboard.writeText(text);
   alert("Prompt kopyalandı");
+}
+
+
+function calcToolCost(){
+  const a = Number(document.getElementById('toolCost1')?.value || 0);
+  const b = Number(document.getElementById('toolCost2')?.value || 0);
+  const c = Number(document.getElementById('toolCost3')?.value || 0);
+  const d = Number(document.getElementById('toolCost4')?.value || 0);
+  const total = a+b+c+d;
+  const el = document.getElementById('toolCostResult');
+  if(el) el.innerHTML = 'Tahmini aylık araç maliyeti: <strong>' + total.toLocaleString('tr-TR') + ' TL</strong><br><small>Bu sadece senin girdiğin rakamlara göre hesaplanır.</small>';
+}
+function calcContentTime(){
+  const hours = Number(document.getElementById('weeklyHours')?.value || 0);
+  const per = Number(document.getElementById('minutesPerContent')?.value || 1);
+  const weekly = Math.floor((hours*60)/Math.max(per,1));
+  const monthly = weekly*4;
+  const el = document.getElementById('contentTimeResult');
+  if(el) el.innerHTML = 'Tahmini üretim: <strong>haftada ' + weekly + '</strong>, ayda yaklaşık <strong>' + monthly + '</strong> içerik.<br><small>Kalite, konu ve kurgu süresine göre değişir.</small>';
+}
+function calcRpm(){
+  const views = Number(document.getElementById('monthlyViews')?.value || 0);
+  const rpm = Number(document.getElementById('rpmValue')?.value || 0);
+  const usd = (views/1000)*rpm;
+  const el = document.getElementById('rpmResult');
+  if(el) el.innerHTML = 'Tahmini gelir: <strong>$' + usd.toFixed(2) + '</strong><br><small>Bu kesin kazanç değildir. RPM ülkeye, konuya, reklama ve trafiğe göre değişir.</small>';
 }

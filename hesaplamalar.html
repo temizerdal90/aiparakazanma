@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Hesaplamalar | Araç Maliyeti, İçerik Süresi ve RPM</title>
+<meta name="description" content="AI araç maliyeti, içerik üretim süresi ve tahmini RPM hesabı için basit hesaplama araçları. Kesin kazanç vaadi değildir.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-tools">
+<header><a class="logo" href="index.html">AI <span>Para Kazanma</span></a><nav>
+<a href="rehberler.html">Rehberler</a><a href="instagram.html">Instagram</a><a href="youtube.html">YouTube</a><a href="tiktok-ai-rehberi.html">TikTok</a><a href="promptlar.html">Promptlar</a><a href="araclar.html">AI Araçları</a>
+<a href="hesaplamalar.html">Hesaplamalar</a><a href="sss.html">SSS</a></nav><div class="search-wrap">
+  <input class="site-search" data-site-search type="search" placeholder="Site içinde ara..." aria-label="Site içinde ara">
+  <div class="search-results" aria-live="polite"></div>
+</div></header>
+<main>
+<section class="simple-hero">
+  <div class="badge">AI hesaplama araçları</div>
+  <h1>AI içerik üretimi için basit hesaplamalar</h1>
+  <p>Araç maliyeti, içerik üretim süresi ve tahmini görüntülenme/RPM hesabı yap. Bu hesaplar sadece planlama içindir, kesin kazanç vaadi değildir.</p>
+</section>
+
+<section>
+  <h2 class="title">Hesaplama araçları</h2>
+  <p class="sub">Rakamları kendin gir. Sonuçlar tahmini ve eğitim amaçlıdır.</p>
+  <div class="calc-grid">
+    <div class="calc-card">
+      <h3>Aylık araç maliyeti</h3>
+      <p>Kullandığın araçlara göre kabaca aylık bütçe hesabı yap.</p>
+      <label>ChatGPT / metin aracı TL</label><input id="toolCost1" type="number" value="0" oninput="calcToolCost()">
+      <label>Canva / tasarım TL</label><input id="toolCost2" type="number" value="0" oninput="calcToolCost()">
+      <label>CapCut / kurgu TL</label><input id="toolCost3" type="number" value="0" oninput="calcToolCost()">
+      <label>Ses / video aracı TL</label><input id="toolCost4" type="number" value="0" oninput="calcToolCost()">
+      <div class="calc-result" id="toolCostResult">Rakam girince sonuç burada görünür.</div>
+    </div>
+
+    <div class="calc-card">
+      <h3>İçerik üretim süresi</h3>
+      <p>Haftalık zamanına göre yaklaşık kaç içerik çıkarabileceğini gör.</p>
+      <label>Haftada kaç saat ayırırsın?</label><input id="weeklyHours" type="number" value="5" oninput="calcContentTime()">
+      <label>1 içerik ortalama kaç dakika sürer?</label><input id="minutesPerContent" type="number" value="60" oninput="calcContentTime()">
+      <div class="calc-result" id="contentTimeResult">Rakam girince sonuç burada görünür.</div>
+    </div>
+
+    <div class="calc-card">
+      <h3>Tahmini RPM hesabı</h3>
+      <p>Görüntülenme ve RPM girerek kaba gelir senaryosu çıkar.</p>
+      <label>Aylık sayfa/video görüntülenmesi</label><input id="monthlyViews" type="number" value="10000" oninput="calcRpm()">
+      <label>1000 görüntülenme başına tahmini dolar</label><input id="rpmValue" type="number" value="1" step="0.1" oninput="calcRpm()">
+      <div class="calc-result" id="rpmResult">Rakam girince sonuç burada görünür.</div>
+    </div>
+  </div>
+  <div class="income-warning">
+    <strong>Uyarı:</strong> Buradaki hesaplamalar yatırım tavsiyesi, finansal danışmanlık veya kesin kazanç vaadi değildir. Platform, ülke, reklam talebi, içerik kalitesi, izleyici davranışı ve süreklilik sonuçları ciddi şekilde değiştirebilir.
+  </div>
+</section>
+</main>
+<footer><strong>Uyarı:</strong> Bu sitede yer alan bilgiler, hesaplama sonuçları, iş fikirleri ve örnek gelir tahminleri yatırım tavsiyesi, finansal danışmanlık veya kesin kesin kazanç vaadi değildir. Sonuçlar kişinin zamanı, becerisi, pazar koşulları, kullandığı araçlar ve çalışma düzenine göre değişebilir.<br><br>© 2026 AI Para Kazanma</footer>
+<script src="script.js"></script>
+</body>
+</html>
