@@ -4,18 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Hesaplamalar | Araç Maliyeti, İçerik Süresi ve RPM</title>
-<meta name="description" content="AI araç maliyeti, içerik üretim süresi ve tahmini RPM hesabı için basit hesaplama araçları. Kesin kazanç vaadi değildir.">
+<meta name="description" content="AI araç maliyeti, içerik üretim süresi, mini içerik planı ve tahmini RPM hesabı için basit hesaplama araçları.">
 <link rel="stylesheet" href="style.css">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D73CW4QE4H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-D73CW4QE4H');
-</script>
-
+<link rel="canonical" href="https://www.aiparakazanma.com/hesaplamalar.html">
+<meta property="og:url" content="https://www.aiparakazanma.com/hesaplamalar.html">
 </head>
 <body class="theme-tools">
 <header><a class="logo" href="index.html">AI <span>Para Kazanma</span></a><nav>
@@ -24,6 +18,7 @@
   <input class="site-search" data-site-search type="search" placeholder="Site içinde ara..." aria-label="Site içinde ara">
   <div class="search-results" aria-live="polite"></div>
 </div></header>
+
 <main>
 <section class="simple-hero">
   <div class="badge">AI hesaplama araçları</div>
@@ -32,8 +27,13 @@
 </section>
 
 <section>
-  <h2 class="title">Hesaplama araçları</h2>
-  <p class="sub">Rakamları kendin gir. Sonuçlar tahmini ve eğitim amaçlıdır.</p>
+  <h2 class="title">Ne hesaplamak istiyorsun?</h2>
+  <div class="calc-intro-grid">
+    <div class="calc-intro"><h3>Aylık araç maliyeti</h3><p>ChatGPT, Canva, CapCut, ElevenLabs gibi araçların toplam bütçesini kabaca gör.</p></div>
+    <div class="calc-intro"><h3>İçerik üretim süresi</h3><p>Haftalık zamanına göre kaç içerik çıkarabileceğini hesapla.</p></div>
+    <div class="calc-intro"><h3>Tahmini görüntülenme senaryosu</h3><p>RPM değeri girerek kaba gelir senaryosu oluştur. Kesin sonuç değildir.</p></div>
+  </div>
+
   <div class="calc-grid">
     <div class="calc-card">
       <h3>Aylık araç maliyeti</h3>
@@ -61,11 +61,23 @@
       <div class="calc-result" id="rpmResult">Rakam girince sonuç burada görünür.</div>
     </div>
   </div>
+
+  <div class="calc-card" style="margin-top:18px">
+    <h3>Mini içerik planı</h3>
+    <p>Hızlıca hangi platform için kaç günlük başlangıç planı oluşturacağını gör.</p>
+    <label>Platform</label>
+    <select id="quickPlatform" onchange="calcSimpleContentPlan()"><option>Instagram</option><option>YouTube</option><option>TikTok</option></select>
+    <label>Kaç günlük plan?</label>
+    <input id="quickDays" type="number" value="7" oninput="calcSimpleContentPlan()">
+    <div class="calc-result" id="quickPlanResult">Seçim yapınca sonuç burada görünür.</div>
+  </div>
+
   <div class="income-warning">
     <strong>Uyarı:</strong> Buradaki hesaplamalar yatırım tavsiyesi, finansal danışmanlık veya kesin kazanç vaadi değildir. Platform, ülke, reklam talebi, içerik kalitesi, izleyici davranışı ve süreklilik sonuçları ciddi şekilde değiştirebilir.
   </div>
 </section>
 </main>
+
 <footer><strong>Uyarı:</strong> Bu sitede yer alan bilgiler, hesaplama sonuçları, iş fikirleri ve örnek gelir tahminleri yatırım tavsiyesi, finansal danışmanlık veya kesin kesin kazanç vaadi değildir. Sonuçlar kişinin zamanı, becerisi, pazar koşulları, kullandığı araçlar ve çalışma düzenine göre değişebilir.<br><br>© 2026 AI Para Kazanma</footer>
 <script src="script.js"></script>
 </body>

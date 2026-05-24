@@ -1,4 +1,11 @@
 
+(function enforceWwwDomain(){
+  if (window.location.hostname === "aiparakazanma.com") {
+    window.location.replace("https://www.aiparakazanma.com" + window.location.pathname + window.location.search + window.location.hash);
+  }
+})();
+
+
 function filterTools(cat, btn){
   document.querySelectorAll('.tool').forEach(t=>{
     t.style.display = (cat==='all' || t.dataset.cat.includes(cat)) ? 'flex' : 'none';
@@ -149,4 +156,15 @@ function clearContactForm(){
   });
   const topic=document.getElementById("contactTopic");
   if(topic) topic.selectedIndex=0;
+}
+
+
+function calcSimpleContentPlan(){
+  const platform = document.getElementById('quickPlatform')?.value || 'Instagram';
+  const days = Number(document.getElementById('quickDays')?.value || 7);
+  const el = document.getElementById('quickPlanResult');
+  const ideas = platform === 'YouTube' ? ['Shorts fikri', 'uzun video başlığı', 'thumbnail fikri'] :
+              platform === 'TikTok' ? ['2 saniye kanca', 'trend uyarlama', 'CapCut kurgu'] :
+              ['Reels fikri', 'çok sayfalı paylaşım', 'hikâye sorusu'];
+  if(el) el.innerHTML = `<strong>${platform} için ${days} günlük mini plan:</strong><br>${days} gün boyunca sırayla ${ideas.join(', ')} üret. Detaylı plan için Promptlar sayfasındaki hazır promptu kullan.`;
 }
