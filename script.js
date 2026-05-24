@@ -76,3 +76,11 @@ function initSiteSearch(){
   });
 }
 document.addEventListener("DOMContentLoaded", initSiteSearch);
+
+
+function copyPromptText(id){
+  const el=document.getElementById(id);
+  const text=el ? el.innerText.trim() : "";
+  navigator.clipboard.writeText(text);
+  alert("Prompt kopyalandı");
+}

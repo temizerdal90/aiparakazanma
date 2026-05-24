@@ -62,3 +62,28 @@ footer{padding:34px 7%;text-align:center;background:#fff;border-top:1px solid #e
 .quick-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .quick-links a{background:#fff;color:#111827;text-decoration:none;border-radius:999px;padding:10px 13px;font-weight:900;border:1px solid rgba(255,255,255,.6)}
 .tool{min-height:360px}
+
+
+.prompt-layout{display:grid;grid-template-columns:280px 1fr;gap:22px;align-items:start}
+.prompt-sidebar{position:sticky;top:92px;background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:18px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.prompt-sidebar h3{margin:0 0 12px;font-size:20px}
+.prompt-sidebar a{display:block;text-decoration:none;border-radius:14px;padding:10px 12px;font-weight:900;color:#374151}
+.prompt-sidebar a:hover{background:#ecfdf5;color:#166534}
+.prompt-section{margin-bottom:30px}
+.prompt-section-title{font-size:30px;margin:0 0 12px}
+.prompt-section-sub{color:#6b7280;line-height:1.6;margin:0 0 18px}
+.prompt-card{background:#111827;color:#f9fafb;border-radius:24px;padding:22px;position:relative;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 28px rgba(17,24,39,.08)}
+.prompt-card h3{margin:0;font-size:21px;padding-right:92px;color:#fff}
+.prompt-copy{position:absolute;right:16px;top:16px;background:#22c55e;color:#052e16;border:0;border-radius:10px;padding:8px 11px;font-weight:900;cursor:pointer}
+.prompt-badges{display:flex;flex-wrap:wrap;gap:8px}
+.prompt-badge{display:inline-block;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:900}
+.prompt-badge.platform{background:#dbeafe;color:#1e3a8a}
+.prompt-badge.ai{background:#dcfce7;color:#166534}
+.prompt-badge.tool{background:#fef3c7;color:#92400e}
+.prompt-badge.output{background:#f3e8ff;color:#6b21a8}
+.prompt-how{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:12px;color:#e5e7eb;line-height:1.55}
+.prompt-text{background:#020617;border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px;line-height:1.65;white-space:pre-wrap}
+.prompt-example{background:#f8fafc;border:1px solid #e5e7eb;border-radius:18px;padding:16px;color:#374151;line-height:1.65}
+.prompt-example strong{color:#111827}
+.prompt-mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(max-width:1000px){.prompt-layout{grid-template-columns:1fr}.prompt-sidebar{position:static}.prompt-mini-grid{grid-template-columns:1fr}}

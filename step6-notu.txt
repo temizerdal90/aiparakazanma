@@ -1,0 +1,6 @@
+6. adım: Platformlu promptlar güçlendirildi.
+
+- Promptlar kategori kategori ayrıldı: Instagram, YouTube, TikTok, CapCut, Görsel/Ses/Web.
+- Her promptta Platform, Yapay zekâ, Araç, Çıktı ve Nasıl kullanılır bilgisi var.
+- Kopyala butonu korundu.
+- Örnek çıktı bölümü eklendi.
