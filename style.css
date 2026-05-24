@@ -526,3 +526,22 @@ body.theme-tools .badge{background:#dcfce7!important;color:#166534!important}
 .quick-list{display:grid;gap:10px}
 .quick-item{background:#f9fafb;border:1px solid #e5e7eb;border-radius:16px;padding:14px;color:#374151;line-height:1.55}
 @media(max-width:1000px){.action-grid,.calc-intro-grid{grid-template-columns:1fr}.prompt-layout{grid-template-columns:1fr}.prompt-side{position:static}.prompt-meta{grid-template-columns:1fr}}
+
+
+/* Step 28 Google rehberi ve görünür linkler */
+.feature-guide-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:stretch}
+.feature-guide-main{background:linear-gradient(135deg,#052e16,#0f172a);color:#fff;border-radius:30px;padding:30px;box-shadow:0 18px 55px rgba(17,24,39,.18)}
+.feature-guide-main h2{font-size:34px;margin:0 0 12px}
+.feature-guide-main p{color:#d1d5db;line-height:1.65}
+.feature-guide-main .btn{margin-top:12px}
+.feature-guide-side{display:grid;gap:14px}
+.feature-mini{background:#fff;border:1px solid #e5e7eb;border-radius:22px;padding:20px;text-decoration:none;color:#111827;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.feature-mini:hover{background:#f0fdf4;border-color:#bbf7d0}
+.feature-mini b{display:block;font-size:19px;margin-bottom:7px}
+.feature-mini span{color:#4b5563;line-height:1.5}
+.home-guide-links{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.home-guide-link{background:#fff;border:1px solid #e5e7eb;border-radius:22px;padding:20px;text-decoration:none;color:#111827;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.home-guide-link:hover{background:#f0fdf4;border-color:#bbf7d0}
+.home-guide-link h3{margin:0 0 8px;font-size:20px}
+.home-guide-link p{margin:0;color:#4b5563;line-height:1.55}
+@media(max-width:1000px){.feature-guide-grid,.home-guide-links{grid-template-columns:1fr}}
