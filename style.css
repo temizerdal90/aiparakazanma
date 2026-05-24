@@ -431,3 +431,42 @@ body.theme-tools .badge{background:#dcfce7!important;color:#166534!important}
 .en-mini-table th{background:#f9fafb;color:#111827}
 .en-mini-table td{color:#4b5563;line-height:1.55}
 @media(max-width:1000px){.en-feature-grid,.en-stack{grid-template-columns:1fr}}
+
+
+/* Step 20 SSS, Hakkımızda, İletişim güçlendirme */
+.trust-hero-note{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:18px;color:#e5e7eb;line-height:1.65;margin-top:18px}
+.faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.faq-card{background:#fff;border:1px solid #e5e7eb;border-radius:22px;padding:20px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.faq-card h3{margin:0 0 8px;font-size:20px;color:#111827}
+.faq-card p{margin:0;color:#4b5563;line-height:1.65}
+.faq-category{margin:36px 0 16px;font-size:28px}
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.about-card{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:24px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.about-card .icon{width:56px;height:56px;border-radius:18px;display:grid;place-items:center;font-size:30px;background:linear-gradient(135deg,#dcfce7,#dbeafe);margin-bottom:14px}
+.about-card h3{font-size:22px;margin:0 0 10px}
+.about-card p,.about-card li{color:#4b5563;line-height:1.65}
+.about-card ul{padding-left:20px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+.contact-panel{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:24px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.contact-panel h3{font-size:22px;margin:0 0 10px}
+.contact-panel p,.contact-panel li{color:#4b5563;line-height:1.65}
+.contact-panel ul{padding-left:20px}
+.contact-row{background:#f9fafb;border:1px solid #e5e7eb;border-radius:16px;padding:14px;margin:10px 0;color:#374151;line-height:1.55}
+.contact-row b{color:#111827}
+.static-form{display:grid;gap:12px}
+.static-form label{font-weight:900;color:#111827}
+.static-form input,.static-form textarea,.static-form select{width:100%;padding:12px;border:1px solid #d1d5db;border-radius:14px;font-size:15px;font-family:Arial,Helvetica,sans-serif}
+.static-form textarea{min-height:120px;resize:vertical}
+.contact-note{background:#fff7ed;border:1px solid #fed7aa;color:#7c2d12;border-radius:18px;padding:16px;line-height:1.65;margin-top:14px}
+.link-strip{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.link-strip a{background:#ecfdf5;color:#166534;border:1px solid #bbf7d0;border-radius:999px;padding:9px 12px;text-decoration:none;font-weight:900}
+@media(max-width:1000px){.faq-grid,.about-grid,.contact-grid{grid-template-columns:1fr}}
+
+
+/* Step 21 iletişim mail çözümü */
+.mail-action{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.mail-action a{display:inline-block;text-decoration:none;border-radius:999px;padding:11px 14px;font-weight:900}
+.mail-primary{background:#22c55e;color:#052e16}
+.mail-secondary{background:#eff6ff;color:#1e3a8a;border:1px solid #bfdbfe}
+.contact-email-box{background:#ecfdf5;border:1px solid #bbf7d0;color:#14532d;border-radius:20px;padding:18px;line-height:1.7;margin:14px 0}
+.contact-email-box code{background:#dcfce7;border-radius:8px;padding:3px 6px;color:#14532d}
