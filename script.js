@@ -38,6 +38,15 @@ const SITE_SEARCH_INDEX = [
   {title:"Runway", url:"araclar.html", desc:"AI video üretimi ve kısa sahne denemeleri.", keywords:"runway ai video görselden video"},
   {title:"Suno", url:"araclar.html", desc:"AI müzik, jingle ve kısa tema üretimi.", keywords:"suno müzik jingle ai şarkı"},
   {title:"TikTok içerik fikri", url:"promptlar.html", desc:"TikTok için kısa video promptları ve CapCut iş akışı.", keywords:"tiktok video prompt capcut"}
+
+  {title:"TikTok AI Rehberi", url:"tiktok-ai-rehberi.html", desc:"TikTok için ChatGPT, ElevenLabs ve CapCut iş akışı.", keywords:"tiktok ai rehberi video prompt capcut"},
+  {title:"CapCut Kurgu Promptları", url:"capcut-kurgu-promptlari.html", desc:"Reels, Shorts ve TikTok için CapCut kurgu promptları.", keywords:"capcut kurgu altyazı reels shorts tiktok prompt"},
+  {title:"Instagram Reels Promptları", url:"instagram-reels-promptlari.html", desc:"Instagram Reels için hazır ChatGPT promptları.", keywords:"instagram reels promptları chatgpt capcut canva"},
+  {title:"YouTube Shorts Promptları", url:"youtube-shorts-promptlari.html", desc:"YouTube Shorts için senaryo ve başlık promptları.", keywords:"youtube shorts promptları chatgpt"},
+  {title:"TikTok Video Promptları", url:"tiktok-video-promptlari.html", desc:"TikTok için kısa video promptları.", keywords:"tiktok video promptları"},
+  {title:"SSS", url:"sss.html", desc:"Yapay zekâ ve site hakkında sık sorulan sorular.", keywords:"sss sık sorulan sorular"},
+  {title:"Yeni Başlayanlar AI Rehberi", url:"yeni-baslayanlar-ai-rehberi.html", desc:"7 günlük başlangıç planı.", keywords:"yeni başlayanlar ai rehberi"},
+  {title:"Ücretsiz AI Araçları", url:"ucretsiz-ai-araclari.html", desc:"Başlangıç için ücretsiz AI araçları.", keywords:"ücretsiz ai araçları"},
 ];
 
 function initSiteSearch(){
