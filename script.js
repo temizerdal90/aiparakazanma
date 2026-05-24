@@ -118,3 +118,35 @@ function calcRpm(){
   const el = document.getElementById('rpmResult');
   if(el) el.innerHTML = 'Tahmini gelir: <strong>$' + usd.toFixed(2) + '</strong><br><small>Bu kesin kazanç değildir. RPM ülkeye, konuya, reklama ve trafiğe göre değişir.</small>';
 }
+
+
+function sendContactForm(){
+  const name = document.getElementById("contactName")?.value.trim() || "";
+  const email = document.getElementById("contactEmail")?.value.trim() || "";
+  const topic = document.getElementById("contactTopic")?.value || "İletişim";
+  const message = document.getElementById("contactMessage")?.value.trim() || "";
+
+  if(!name || !email || !message){
+    alert("Lütfen ad, e-posta ve mesaj alanlarını doldurun.");
+    return;
+  }
+
+  const to = "erdaltemiz@gmail.com";
+  const subject = "AI Para Kazanma - " + topic;
+  const body =
+    "Ad Soyad: " + name + "\n" +
+    "E-posta: " + email + "\n" +
+    "Konu: " + topic + "\n\n" +
+    "Mesaj:\n" + message + "\n\n" +
+    "----\nBu mesaj aiparakazanma.com iletişim sayfasından hazırlanmıştır.";
+
+  window.location.href = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+}
+function clearContactForm(){
+  ["contactName","contactEmail","contactMessage"].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el) el.value="";
+  });
+  const topic=document.getElementById("contactTopic");
+  if(topic) topic.selectedIndex=0;
+}
