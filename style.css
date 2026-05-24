@@ -570,3 +570,43 @@ body.theme-tools .badge{background:#dcfce7!important;color:#166534!important}
 .path-box ol{padding-left:22px;color:#4b5563;line-height:1.75}
 .path-box p{color:#4b5563;line-height:1.7}
 @media(max-width:1000px){.google-guide-hero-inner,.big-link-grid{grid-template-columns:1fr}.google-guide-hero h1{font-size:36px}}
+
+
+/* Step 32 taşma ve prompt kutusu düzeltmesi */
+.hero, .simple-hero, .google-guide-hero {
+  overflow: visible;
+}
+.prompt-copy,
+.en-prompt-box,
+.seo-article-card .prompt-copy {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.prompt-card2,
+.seo-article-card,
+.rich-article,
+.article-wrap,
+.calc-card,
+.platform-hero-card {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.prompt-meta {
+  max-width: 100%;
+}
+.prompt-body {
+  overflow: hidden;
+}
+main {
+  overflow-x: hidden;
+}
+@media(max-width:900px){
+  .prompt-copy{font-size:14px}
+  .prompt-meta{grid-template-columns:1fr !important}
+}
