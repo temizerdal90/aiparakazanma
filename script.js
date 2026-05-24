@@ -168,3 +168,199 @@ function calcSimpleContentPlan(){
               ['Reels fikri', 'çok sayfalı paylaşım', 'hikâye sorusu'];
   if(el) el.innerHTML = `<strong>${platform} için ${days} günlük mini plan:</strong><br>${days} gün boyunca sırayla ${ideas.join(', ')} üret. Detaylı plan için Promptlar sayfasındaki hazır promptu kullan.`;
 }
+
+
+// Step 37 Random Prompt Üretici
+const RANDOM_PROMPT_DATA = {
+  instagram: [
+`Bana [KONU] hakkında Instagram Reels için 30-45 saniyelik video planı hazırla.
+
+Şunları ver:
+1. Video başlığı
+2. İlk 3 saniye kanca cümlesi
+3. Kısa senaryo
+4. Ekrana yazılacak altyazılar
+5. Canva kapak fikri
+6. CapCut kurgu önerisi
+7. Açıklama metni
+8. 5 hashtag
+
+Ton: sade, merak uyandıran, abartısız.`,
+`[KONU] alanında Instagram için 7 sayfalık çok sayfalı paylaşım hazırla.
+
+Her sayfa için:
+- Kısa başlık
+- 1-2 cümle açıklama
+- Görsel fikri
+- Tasarım notu
+
+Son sayfada takip veya web sitesine yönlendiren doğal çağrı olsun.`,
+`Instagram hesabım için [KONU] alanında 15 içerik fikri üret.
+
+Her fikirde:
+- İçerik türü: Reels / post / hikâye
+- Kanca cümlesi
+- Kısa açıklama
+- Kullanılacak araç: ChatGPT, Canva veya CapCut
+- Yayın amacı: takip, yorum, kayıt veya paylaşım`
+  ],
+  youtube: [
+`Bana [KONU] hakkında YouTube Shorts için 45 saniyelik video planı hazırla.
+
+Elimdeki araçlar:
+- ChatGPT: fikir ve senaryo
+- Canva: kapak/thumbnail
+- ElevenLabs: seslendirme
+- CapCut: altyazı ve kurgu
+
+Şunları ver:
+1. Video başlığı
+2. İlk 3 saniye kanca
+3. 45 saniyelik senaryo
+4. Altyazı satırları
+5. Seslendirme metni
+6. Canva kapak fikri
+7. CapCut kurgu planı
+8. Açıklama ve 5 hashtag`,
+`[KONU] hakkında YouTube için uzun video taslağı hazırla.
+
+Şunları sırayla ver:
+1. Video başlığı
+2. Giriş cümlesi
+3. Bölüm bölüm akış
+4. Her bölüm için anlatım notu
+5. Thumbnail yazısı
+6. Açıklama metni
+7. Sabit yorum önerisi
+
+Ton: öğretici, sade ve güven veren.`,
+`YouTube kanalım için [KONU] alanında 20 Shorts fikri üret.
+
+Her fikir için:
+- Başlık
+- İlk 3 saniye kanca
+- 3 maddelik akış
+- Ekran yazısı
+- CapCut kurgu fikri
+- Yorum çağrısı`
+  ],
+  tiktok: [
+`[KONU] hakkında TikTok için 20 kısa video fikri üret.
+
+Her fikir için:
+1. İlk 2 saniye kanca
+2. Video akışı
+3. Ekrana yazılacak metin
+4. CapCut kurgu önerisi
+5. Açıklama metni
+
+Ton: hızlı, doğal, merak uyandıran.`,
+`Bana [KONU] için TikTok trend uyarlama planı hazırla.
+
+Şunları ver:
+- Trend mantığı
+- Bu konuya nasıl uyarlanır?
+- İlk 2 saniye kanca
+- 15-30 saniyelik akış
+- Altyazı metni
+- CapCut kurgu notu`,
+`TikTok için [KONU] alanında yüzsüz video planı hazırla.
+
+Elimde:
+- ChatGPT
+- Canva
+- ElevenLabs
+- CapCut
+
+Bana fikir, seslendirme metni, görsel önerisi, altyazı ve kurgu akışı ver.`
+  ],
+  capcut: [
+`Şu metni CapCut altyazısına uygun hale getir: [KONU veya METİN]
+
+Kurallar:
+- Her satır kısa olsun
+- Gereksiz tekrarları temizle
+- Vurgu kelimelerini belirt
+- Dikey video için hızlı okunabilir hale getir
+- Ekranda aynı anda çok uzun metin olmasın`,
+`[KONU] hakkında dikey kısa video için CapCut kurgu planı hazırla.
+
+Şunları ver:
+1. Saniye saniye sahne akışı
+2. Ekran yazıları
+3. Geçiş önerileri
+4. Altyazı stili
+5. Müzik hissi
+6. Finalde yorum çağrısı`,
+`CapCut’ta düzenlenecek [KONU] videosu için hızlı kurgu reçetesi hazırla.
+
+Video formatı: 9:16
+Süre: 30-45 saniye
+İçerik: kısa, anlaşılır, altyazılı
+Çıktı: sahne planı + altyazı + vurgu kelimeleri`
+  ],
+  genel: [
+`Elimde ChatGPT, Canva, CapCut ve ElevenLabs var.
+
+[KONU] hakkında sosyal medya içeriği üretmek istiyorum.
+Bana şu sırayla plan ver:
+1. Hangi platform uygun?
+2. İçerik fikri
+3. Kanca cümlesi
+4. Kısa senaryo
+5. Görsel/kapak fikri
+6. Seslendirme metni
+7. Kurgu planı
+8. Yayın açıklaması`,
+`[KONU] alanında 7 günlük içerik planı hazırla.
+
+Her gün için:
+- Platform
+- İçerik türü
+- Başlık
+- Kanca
+- Kullanılacak AI aracı
+- Çıktı türü
+- Kısa açıklama`,
+`Bana [KONU] için sıfırdan içerik üretim sistemi kur.
+
+Şunları açıkla:
+- Hangi platformdan başlamalıyım?
+- Hangi AI aracını ne için kullanmalıyım?
+- İlk 10 içerik fikri ne olsun?
+- Hangi promptları kullanmalıyım?
+- Sonuçları nasıl ölçmeliyim?`
+  ]
+};
+
+function randomPromptGenerate(platform){
+  const platformSelect = document.getElementById("randomPromptPlatform");
+  const topicInput = document.getElementById("randomPromptTopic");
+  const output = document.getElementById("randomPromptOutput");
+  const chosenPlatform = platform || (platformSelect ? platformSelect.value : "genel");
+  const topic = (topicInput && topicInput.value.trim()) ? topicInput.value.trim() : "seçtiğim konu";
+  const list = RANDOM_PROMPT_DATA[chosenPlatform] || RANDOM_PROMPT_DATA.genel;
+  const prompt = list[Math.floor(Math.random() * list.length)].replaceAll("[KONU]", topic).replaceAll("[KONU veya METİN]", topic);
+  if(output) output.textContent = prompt;
+  if(platformSelect && platform) platformSelect.value = platform;
+}
+
+function copyRandomPrompt(){
+  const output = document.getElementById("randomPromptOutput");
+  if(!output) return;
+  const text = output.textContent || "";
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById("copyRandomPromptBtn");
+    if(btn){
+      const old = btn.textContent;
+      btn.textContent = "Kopyalandı";
+      setTimeout(()=>btn.textContent=old, 1200);
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+  if(document.getElementById("randomPromptOutput")){
+    randomPromptGenerate();
+  }
+});

@@ -17,12 +17,10 @@
   gtag('config', 'G-D73CW4QE4H');
   gtag('config', 'AW-18142356534');
 </script>
-
-<link rel="canonical" href="https://www.aiparakazanma.com/promptlar.html">
-<meta property="og:url" content="https://www.aiparakazanma.com/promptlar.html">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9289852053561118"
      crossorigin="anonymous"></script>
-
+<link rel="canonical" href="https://www.aiparakazanma.com/promptlar.html">
+<meta property="og:url" content="https://www.aiparakazanma.com/promptlar.html">
 </head>
 <body class="theme-prompts">
 <header>
@@ -34,7 +32,7 @@
     <a href="youtube.html">YouTube</a>
     <a href="tiktok-ai-rehberi.html">TikTok</a>
     <a href="capcut-ile-altyazili-video-nasil-yapilir.html">CapCut</a>
-    <a href="promptlar.html">Promptlar</a>
+    <a href="promptlar.html">Promptlar</a><a href="random-prompt-uretici.html">Random Prompt</a>
     <a href="araclar.html">AI Araçları</a>
     <a href="hesaplamalar.html">Hesaplamalar</a>
     <a href="sss.html">SSS</a>
@@ -49,6 +47,40 @@
   <h1>Hazır AI promptları</h1>
   <p>Her prompt; platform, kullanılacak yapay zekâ, devam aracı, çıktı türü, nasıl kullanılacağı ve örnek çıktı mantığıyla hazırlandı.</p>
 </section>
+
+<section>
+  <div class="random-prompt-panel">
+    <h2>Random Prompt Üretici</h2>
+    <p>Konu yaz, platform seç, butona bas. Her basışta farklı bir hazır prompt üretilir. Çıkan promptu ChatGPT, Gemini veya benzeri yapay zekâ aracına yapıştırabilirsin.</p>
+    <div class="random-controls">
+      <div>
+        <label for="randomPromptPlatform">Platform</label>
+        <select id="randomPromptPlatform">
+          <option value="genel">Genel AI içerik</option>
+          <option value="instagram">Instagram</option>
+          <option value="youtube">YouTube</option>
+          <option value="tiktok">TikTok</option>
+          <option value="capcut">CapCut</option>
+        </select>
+      </div>
+      <div>
+        <label for="randomPromptTopic">Konu</label>
+        <input id="randomPromptTopic" type="text" placeholder="Örn: YouTube Shorts, yemek tarifi, AI araçları">
+      </div>
+      <button onclick="randomPromptGenerate()">Random Prompt Yap</button>
+    </div>
+    <div id="randomPromptOutput" class="random-output"></div>
+    <div class="random-actions">
+      <button id="copyRandomPromptBtn" onclick="copyRandomPrompt()">Promptu Kopyala</button>
+      <button class="secondary" onclick="randomPromptGenerate('instagram')">Instagram</button>
+      <button class="secondary" onclick="randomPromptGenerate('youtube')">YouTube</button>
+      <button class="secondary" onclick="randomPromptGenerate('tiktok')">TikTok</button>
+      <button class="secondary" onclick="randomPromptGenerate('capcut')">CapCut</button>
+    </div>
+    <div class="random-hint">Not: Bu araç eğitim ve içerik planlama içindir. Kesin kazanç vaadi vermez.</div>
+  </div>
+</section>
+
 
 <section>
   <div class="prompt-layout">
@@ -119,7 +151,29 @@ Başlıklar merak uyandırsın ama yanıltıcı olmasın.</div></div>
         </div>
       </div>
 
-      <div id="tiktok" class="prompt-section">
+      
+<div class="prompt-card2">
+  <div class="prompt-head"><h3>Elimdeki Araçlarla Shorts Planı</h3><div class="prompt-meta"><div><b>Platform</b>YouTube Shorts</div><div><b>Yapay zekâ</b>ChatGPT</div><div><b>Araç</b>Canva + ElevenLabs + CapCut</div><div><b>Çıktı</b>Tam video akışı</div></div></div>
+  <div class="prompt-body"><p>ChatGPT’ye elindeki araçları söyleyip Shorts için tam üretim planı almanı sağlar.</p><div class="prompt-copy">Bana [konu] hakkında YouTube Shorts için 45 saniyelik video planı hazırla.
+
+Elimdeki araçlar:
+- ChatGPT: fikir ve senaryo
+- Canva: kapak/thumbnail
+- ElevenLabs: seslendirme
+- CapCut: altyazı ve kurgu
+
+Şunları ver:
+1. Video başlığı
+2. İlk 3 saniye kanca
+3. Kısa senaryo
+4. Altyazı satırları
+5. Seslendirme metni
+6. Canva kapak fikri
+7. CapCut kurgu planı
+8. YouTube açıklaması ve hashtagler</div></div>
+</div>
+
+<div id="tiktok" class="prompt-section">
         <h2>TikTok Promptları</h2>
         <div class="prompt-card2"><div class="prompt-head"><h3>20 TikTok Video Fikri</h3><div class="prompt-meta"><div><b>Platform</b>TikTok</div><div><b>Yapay zekâ</b>ChatGPT</div><div><b>Araç</b>CapCut</div><div><b>Çıktı</b>Kısa video planı</div></div></div><div class="prompt-body"><div class="prompt-copy">[konu] için TikTok’ta paylaşılacak 20 kısa video fikri üret.
 Her fikir için:

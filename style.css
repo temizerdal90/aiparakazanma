@@ -610,3 +610,40 @@ main {
   .prompt-copy{font-size:14px}
   .prompt-meta{grid-template-columns:1fr !important}
 }
+
+
+/* Step 36 YouTube araç akışı */
+.tool-flow-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.tool-flow-card{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:22px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.tool-flow-card .num{width:42px;height:42px;border-radius:16px;background:#dcfce7;color:#14532d;display:grid;place-items:center;font-weight:900;margin-bottom:12px}
+.tool-flow-card h3{font-size:21px;margin:0 0 8px}
+.tool-flow-card p{color:#4b5563;line-height:1.6;margin:0}
+.idea-matrix{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.idea-card{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:22px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.idea-card h3{font-size:22px;margin:0 0 10px;color:#111827}
+.idea-card ul{margin:0;padding-left:20px;color:#4b5563;line-height:1.7}
+.youtube-prompt-box{background:#020617;color:#f9fafb;border-radius:22px;padding:22px;white-space:pre-wrap;line-height:1.7;overflow-wrap:anywhere;word-break:break-word}
+.tool-checklist{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tool-check{background:#f9fafb;border:1px solid #e5e7eb;border-radius:18px;padding:16px;color:#374151;line-height:1.6}
+@media(max-width:1000px){.tool-flow-grid,.idea-matrix,.tool-checklist{grid-template-columns:1fr}}
+
+
+/* Step 37 Random Prompt Üretici */
+.random-prompt-panel{background:linear-gradient(135deg,#020617,#0f172a,#064e3b);color:#fff;border-radius:30px;padding:28px;box-shadow:0 18px 55px rgba(17,24,39,.18);margin-top:18px}
+.random-prompt-panel h2{font-size:32px;margin:0 0 10px;color:#fff}
+.random-prompt-panel p{color:#d1d5db;line-height:1.65;margin:0 0 18px}
+.random-controls{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end;margin:18px 0}
+.random-controls label{display:block;color:#bbf7d0;font-weight:900;margin-bottom:7px}
+.random-controls select,.random-controls input{width:100%;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);color:#fff;border-radius:16px;padding:13px;font-size:15px;box-sizing:border-box}
+.random-controls select option{color:#111827;background:#fff}
+.random-output{background:#020617;border:1px solid rgba(255,255,255,.14);border-radius:22px;padding:22px;white-space:pre-wrap;line-height:1.7;color:#f9fafb;min-height:220px;overflow-wrap:anywhere;word-break:break-word}
+.random-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+.random-actions button,.random-controls button{border:0;border-radius:16px;padding:14px 18px;font-weight:900;cursor:pointer;background:#22c55e;color:#052e16}
+.random-actions button.secondary{background:#fff;color:#111827}
+.random-hint{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:14px;color:#d1d5db;margin-top:14px}
+.random-shortcut-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+.random-shortcut{background:#fff;border:1px solid #e5e7eb;border-radius:22px;padding:20px;text-decoration:none;color:#111827;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.random-shortcut:hover{background:#f0fdf4;border-color:#bbf7d0}
+.random-shortcut h3{margin:0 0 8px;font-size:20px}
+.random-shortcut p{color:#4b5563;line-height:1.55;margin:0}
+@media(max-width:900px){.random-controls{grid-template-columns:1fr}.random-shortcut-grid{grid-template-columns:1fr}.random-prompt-panel h2{font-size:26px}}
