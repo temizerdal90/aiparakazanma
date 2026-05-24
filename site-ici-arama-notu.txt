@@ -1,0 +1,5 @@
+4. adım: Site içi arama eklendi.
+
+Arama kutusu header içinde sağ üstte görünür. Mobilde menünün altında tam genişlik olur.
+Arama şu kelimeleri bulur: Instagram, YouTube, TikTok, CapCut, ElevenLabs, Canva, Runway, Suno, prompt, SEO vb.
+Arama veri listesi script.js içindeki SITE_SEARCH_INDEX bölümünden genişletilebilir.
