@@ -25,10 +25,16 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.aiparakazanma.com/araclar.html</loc>
+    <loc>https://www.aiparakazanma.com/akilli-video-prompt-uretici.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.aiparakazanma.com/araclar.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.aiparakazanma.com/capcut-ile-altyazili-video-nasil-yapilir.html</loc>
@@ -129,8 +135,8 @@
   <url>
     <loc>https://www.aiparakazanma.com/rehberler.html</loc>
     <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.aiparakazanma.com/seo.html</loc>
@@ -171,8 +177,8 @@
   <url>
     <loc>https://www.aiparakazanma.com/youtube-ai-araclariyla-ne-yapabilirim.html</loc>
     <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.aiparakazanma.com/youtube-shorts-promptlari.html</loc>
@@ -183,7 +189,7 @@
   <url>
     <loc>https://www.aiparakazanma.com/youtube.html</loc>
     <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

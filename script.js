@@ -364,3 +364,140 @@ document.addEventListener("DOMContentLoaded", function(){
     randomPromptGenerate();
   }
 });
+
+
+// Step 38 Akıllı Prompt Üretici: kullanıcı fikrini tam video promptuna çevirir
+
+function expandVideoIdea(){
+  const ideaEl = document.getElementById("smartIdea");
+  const result = document.getElementById("storyExpandResult");
+  const tone = document.getElementById("storyTone")?.value || "sinematik ve merak uyandıran";
+  const topic = (ideaEl?.value || "").trim() || "Messi";
+  const cleanTopic = topic;
+
+  const story = `1. Kıta:
+${cleanTopic} fikrini kısa ama etkili bir hikâyeye çevir. Ana karakteri, ortamı ve ilk kırılma anını net anlat. Olay bir anda başlamasın; önce izleyiciyi meraka sokacak küçük bir detay ver. Ton ${tone} olsun.
+
+2. Kıta:
+Hikâyeyi büyüt. Karakterin karşılaştığı sorunu, beklenmedik gelişmeyi ve finalde merak bırakan noktayı anlat. Son cümle izleyicinin “devamı ne olacak?” diye düşünmesini sağlasın.`;
+
+  if(result) result.textContent = story;
+  return story;
+}
+
+function useExpandedStoryAsIdea(){
+  const result = document.getElementById("storyExpandResult");
+  const ideaEl = document.getElementById("smartIdea");
+  if(result && ideaEl && result.textContent.trim()){
+    ideaEl.value = result.textContent.trim();
+  }
+  buildSmartPrompt();
+}
+
+function buildSmartPrompt(){
+  const idea = (document.getElementById("smartIdea")?.value || "").trim();
+  const expanded = (document.getElementById("storyExpandResult")?.textContent || "").trim();
+  const platform = document.getElementById("smartPlatform")?.value || "YouTube Shorts";
+  const duration = document.getElementById("smartDuration")?.value || "40-60 saniye";
+  const style = document.getElementById("smartStyle")?.value || "sinematik, merak uyandıran";
+  const tool = document.getElementById("smartTool")?.value || "ChatGPT + CapCut";
+  const output = document.getElementById("smartPromptOutput");
+
+  const cleanIdea = expanded || idea || "Bir adam yolda yürürken araba çarpar. Uyandığında şehrin boşaldığını ve herkesin zombiye dönüştüğünü fark eder.";
+  const prompt = `Aşağıdaki fikri önce iki kıtalık kısa hikâyeye dönüştür, sonra ${platform} için ${duration} uzunluğunda video projesi hazırla.
+
+FİKİR / HİKÂYE ÇEKİRDEĞİ:
+${cleanIdea}
+
+KULLANILACAK ARAÇLAR:
+${tool}
+
+VİDEO TARZI:
+${style}
+
+ÖNCE ŞUNU YAP:
+- Yazılan fikri 2 kıtalık kısa hikâyeye genişlet.
+- 1. kıtada karakter, ortam ve olayın başlangıcı olsun.
+- 2. kıtada gerilim, beklenmedik gelişme ve merak bırakan final olsun.
+- Kullanıcı sadece “Messi” yazarsa bile bunu kısa hikâye fikrine çevir.
+- Kullanıcı “zombi”, “kaza”, “uzay”, “aşk”, “futbol” gibi tek kelime yazarsa onu da hikâyeye dönüştür.
+
+SONRA ŞU ÇIKTILARI VER:
+
+1. Video başlığı
+- Merak uyandıran 5 farklı başlık ver.
+- Başlıklar yanıltıcı veya abartılı kazanç vaadi içermesin.
+
+2. İlk 3 saniye kanca
+- İzleyiciyi durduracak 5 farklı açılış cümlesi yaz.
+- Kısa, sert ve merak uyandıran olsun.
+
+3. ${duration} video senaryosu
+- Saniye saniye akış oluştur.
+- Her sahnede ne görünecek açıkla.
+- Giriş, gelişme, ters köşe ve final olsun.
+- Finalde izleyiciyi yorum yapmaya çağır.
+
+4. Görsel/video sahne promptları
+- Her sahne için ayrı görsel veya video üretim promptu yaz.
+- Karakter, ortam, ışık, kamera açısı, duygu ve atmosferi belirt.
+- Dikey 9:16 formatına uygun olsun.
+
+5. Seslendirme metni
+- Doğal konuşma diliyle yaz.
+- Cümleler kısa olsun.
+- ${duration} içine sığacak şekilde hazırla.
+
+6. Ekran altyazıları
+- CapCut için kısa satırlar halinde ver.
+- Her satır hızlı okunabilir olsun.
+- Vurgu yapılacak kelimeleri belirt.
+
+7. Kurgu planı
+- CapCut için sahne geçişleri, zoom, efekt, altyazı stili ve tempo öner.
+- Gereksiz karmaşa olmasın.
+
+8. YouTube yayın paketi
+- Açıklama metni
+- 5 hashtag
+- Sabit yorum önerisi
+- Thumbnail yazısı
+
+Kurallar:
+- Video dikey 9:16 olacak.
+- Telifli karakter veya marka kullanırken dikkatli ol; gerçek kişi adı geçerse onu haber/kurgu ayrımını koruyarak zararsız ve saygılı kullan.
+- Şiddeti aşırı grafik anlatma; gerilim ve atmosferle ver.
+- İzleyiciyi merakta bırak ama yanıltma.
+- Çıktıyı doğrudan kopyalanabilir düzenli başlıklarla ver.`;
+
+  if(output) output.textContent = prompt;
+}
+
+
+function copySmartPrompt(){
+  const output = document.getElementById("smartPromptOutput");
+  if(!output) return;
+  navigator.clipboard.writeText(output.textContent || "").then(() => {
+    const btn = document.getElementById("copySmartPromptBtn");
+    if(btn){
+      const old = btn.textContent;
+      btn.textContent = "Kopyalandı";
+      setTimeout(()=>btn.textContent=old, 1200);
+    }
+  });
+}
+
+function fillZombieExample(){
+  const idea = document.getElementById("smartIdea");
+  if(idea){
+    idea.value = "Bir adam gece yolda yürürken hızla gelen bir araba çarpar. Gözlerini hastane gibi görünen karanlık bir yerde açar. Dışarı çıkar ama şehir bomboştur. Bir markete girer, raftaki ürünler dağılmıştır. Sonra uzaktan garip sesler duyar. İnsanların zombiye dönüştüğünü fark eder. En sonda telefonda kendi eski videosunu görür ve aslında kazadan sonra günler geçtiğini anlar.";
+  }
+  expandVideoIdea();
+  buildSmartPrompt();
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+  if(document.getElementById("smartPromptOutput")){
+    buildSmartPrompt();
+  }
+});

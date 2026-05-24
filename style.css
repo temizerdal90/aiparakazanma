@@ -647,3 +647,34 @@ main {
 .random-shortcut h3{margin:0 0 8px;font-size:20px}
 .random-shortcut p{color:#4b5563;line-height:1.55;margin:0}
 @media(max-width:900px){.random-controls{grid-template-columns:1fr}.random-shortcut-grid{grid-template-columns:1fr}.random-prompt-panel h2{font-size:26px}}
+
+
+/* Step 38 Akıllı Prompt Üretici */
+.smart-prompt-panel{background:linear-gradient(135deg,#020617,#111827,#064e3b);color:#fff;border-radius:30px;padding:30px;box-shadow:0 18px 55px rgba(17,24,39,.2);margin-top:18px}
+.smart-prompt-panel h2{font-size:34px;margin:0 0 10px;color:#fff}
+.smart-prompt-panel p{color:#d1d5db;line-height:1.65;margin:0 0 18px}
+.smart-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+.smart-form{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:20px}
+.smart-form label{display:block;color:#bbf7d0;font-weight:900;margin:14px 0 7px}
+.smart-form textarea,.smart-form input,.smart-form select{width:100%;box-sizing:border-box;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);color:#fff;border-radius:16px;padding:13px;font-size:15px}
+.smart-form textarea{min-height:150px;resize:vertical;line-height:1.55}
+.smart-form select option{color:#111827;background:#fff}
+.smart-form button{border:0;border-radius:16px;padding:14px 18px;font-weight:900;cursor:pointer;background:#22c55e;color:#052e16;margin-top:16px}
+.smart-output{background:#020617;border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:22px;white-space:pre-wrap;line-height:1.7;color:#f9fafb;min-height:420px;overflow-wrap:anywhere;word-break:break-word}
+.smart-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+.smart-actions button{border:0;border-radius:16px;padding:14px 18px;font-weight:900;cursor:pointer;background:#fff;color:#111827}
+.example-story{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:22px;padding:20px;margin-top:18px;color:#14532d;line-height:1.65}
+.example-story strong{display:block;margin-bottom:8px;color:#052e16}
+@media(max-width:1000px){.smart-grid{grid-template-columns:1fr}.smart-output{min-height:260px}.smart-prompt-panel h2{font-size:28px}}
+
+
+/* Step 39 fikir genişletme */
+.story-expand-box{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:22px;box-shadow:0 10px 28px rgba(17,24,39,.06);margin-top:18px}
+.story-expand-box h2{font-size:28px;margin:0 0 10px}
+.story-expand-box p{color:#4b5563;line-height:1.65}
+.story-result{background:#f8fafc;border:1px solid #e5e7eb;border-radius:18px;padding:18px;white-space:pre-wrap;line-height:1.7;color:#111827;margin-top:14px;overflow-wrap:anywhere}
+.story-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.story-actions button{border:0;border-radius:14px;padding:12px 15px;font-weight:900;cursor:pointer;background:#22c55e;color:#052e16}
+.story-actions button.secondary{background:#111827;color:#fff}
+.smart-form .mini-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:800px){.smart-form .mini-row{grid-template-columns:1fr}}
