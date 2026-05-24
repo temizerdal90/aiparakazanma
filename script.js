@@ -23,30 +23,29 @@ function copyPrompt(id){
 
 
 const SITE_SEARCH_INDEX = [
-  {title:"Ana Sayfa", url:"index.html", desc:"AI para kazanma rehberi, ana bölümler ve başlangıç.", keywords:"ana sayfa ai para kazanma yapay zeka rehber"},
-  {title:"Rehberler", url:"rehberler.html", desc:"Instagram, YouTube, AI video ve SEO rehberleri.", keywords:"rehberler instagram youtube tiktok ai video seo"},
-  {title:"Instagram AI Rehberi", url:"instagram.html", desc:"Instagram Reels, carousel, hikâye ve içerik planı.", keywords:"instagram reels carousel hikaye post prompt"},
-  {title:"YouTube AI Rehberi", url:"youtube.html", desc:"YouTube Shorts, uzun video, senaryo ve kanal planı.", keywords:"youtube shorts uzun video kanal senaryo prompt"},
-  {title:"AI Video Rehberi", url:"ai-video.html", desc:"Runway, Pika, Kling, ElevenLabs ve CapCut iş akışı.", keywords:"ai video runway pika kling elevenlabs capcut"},
-  {title:"Hazır Promptlar", url:"promptlar.html", desc:"Platform + yapay zekâ + nasıl kullanılır mantığında promptlar.", keywords:"prompt chatgpt instagram youtube capcut canva elevenlabs"},
-  {title:"AI Araçları", url:"araclar.html", desc:"ChatGPT, Canva, CapCut, ElevenLabs, Runway, Suno ve diğer araçlar.", keywords:"ai araçları chatgpt canva capcut elevenlabs runway suno gemini claude"},
-  {title:"Google SEO Planı", url:"seo.html", desc:"Google’da görünür olmak için sitemap, başlık ve içerik planı.", keywords:"seo google sitemap search console dizin"},
-  {title:"ChatGPT", url:"araclar.html", desc:"Metin, fikir, plan, senaryo, prompt ve kod desteği.", keywords:"chatgpt openai metin fikir prompt"},
-  {title:"Canva", url:"araclar.html", desc:"Post, kapak, carousel, afiş ve sosyal medya tasarımı.", keywords:"canva tasarım carousel post kapak"},
-  {title:"CapCut", url:"araclar.html", desc:"Reels, Shorts, TikTok, altyazı ve kısa video kurgusu.", keywords:"capcut reels shorts tiktok altyazı kurgu"},
-  {title:"ElevenLabs", url:"araclar.html", desc:"AI seslendirme ve video anlatıcı sesi.", keywords:"elevenlabs seslendirme ai ses text to speech"},
-  {title:"Runway", url:"araclar.html", desc:"AI video üretimi ve kısa sahne denemeleri.", keywords:"runway ai video görselden video"},
-  {title:"Suno", url:"araclar.html", desc:"AI müzik, jingle ve kısa tema üretimi.", keywords:"suno müzik jingle ai şarkı"},
-  {title:"TikTok içerik fikri", url:"promptlar.html", desc:"TikTok için kısa video promptları ve CapCut iş akışı.", keywords:"tiktok video prompt capcut"}
-
-  {title:"TikTok AI Rehberi", url:"tiktok-ai-rehberi.html", desc:"TikTok için ChatGPT, ElevenLabs ve CapCut iş akışı.", keywords:"tiktok ai rehberi video prompt capcut"},
-  {title:"CapCut Kurgu Promptları", url:"capcut-kurgu-promptlari.html", desc:"Reels, Shorts ve TikTok için CapCut kurgu promptları.", keywords:"capcut kurgu altyazı reels shorts tiktok prompt"},
-  {title:"Instagram Reels Promptları", url:"instagram-reels-promptlari.html", desc:"Instagram Reels için hazır ChatGPT promptları.", keywords:"instagram reels promptları chatgpt capcut canva"},
-  {title:"YouTube Shorts Promptları", url:"youtube-shorts-promptlari.html", desc:"YouTube Shorts için senaryo ve başlık promptları.", keywords:"youtube shorts promptları chatgpt"},
-  {title:"TikTok Video Promptları", url:"tiktok-video-promptlari.html", desc:"TikTok için kısa video promptları.", keywords:"tiktok video promptları"},
-  {title:"SSS", url:"sss.html", desc:"Yapay zekâ ve site hakkında sık sorulan sorular.", keywords:"sss sık sorulan sorular"},
-  {title:"Yeni Başlayanlar AI Rehberi", url:"yeni-baslayanlar-ai-rehberi.html", desc:"7 günlük başlangıç planı.", keywords:"yeni başlayanlar ai rehberi"},
-  {title:"Ücretsiz AI Araçları", url:"ucretsiz-ai-araclari.html", desc:"Başlangıç için ücretsiz AI araçları.", keywords:"ücretsiz ai araçları"},
+  {title:'Ana Sayfa', url:'index.html', desc:'AI para kazanma rehberi, ana bölümler ve başlangıç.', keywords:'ana sayfa ai para kazanma yapay zeka rehber'},
+  {title:'Rehberler', url:'rehberler.html', desc:'Instagram, YouTube, TikTok, AI video ve SEO rehberleri.', keywords:'rehberler instagram youtube tiktok ai video seo'},
+  {title:'Instagram AI Rehberi', url:'instagram.html', desc:'Instagram Reels, kaydırmalı paylaşım, hikâye ve içerik planı.', keywords:'instagram reels carousel hikaye post prompt'},
+  {title:'YouTube AI Rehberi', url:'youtube.html', desc:'YouTube Shorts, uzun video, senaryo ve kanal planı.', keywords:'youtube shorts uzun video kanal senaryo prompt'},
+  {title:'TikTok AI Rehberi', url:'tiktok-ai-rehberi.html', desc:'TikTok için ChatGPT, ElevenLabs ve CapCut iş akışı.', keywords:'tiktok ai rehberi video prompt capcut'},
+  {title:'AI Video Rehberi', url:'ai-video.html', desc:'Runway, Pika, Kling, ElevenLabs ve CapCut iş akışı.', keywords:'ai video runway pika kling elevenlabs capcut'},
+  {title:'Hazır Promptlar', url:'promptlar.html', desc:'Platform + yapay zekâ + nasıl kullanılır mantığında promptlar.', keywords:'prompt chatgpt instagram youtube tiktok capcut canva elevenlabs'},
+  {title:'AI Araçları', url:'araclar.html', desc:'ChatGPT, Canva, CapCut, ElevenLabs, Runway, Suno ve diğer araçlar.', keywords:'ai araçları chatgpt canva capcut elevenlabs runway suno gemini claude'},
+  {title:'CapCut Kurgu Promptları', url:'capcut-kurgu-promptlari.html', desc:'Reels, Shorts ve TikTok için CapCut kurgu promptları.', keywords:'capcut kurgu altyazı reels shorts tiktok prompt'},
+  {title:'Instagram Reels Promptları', url:'instagram-reels-promptlari.html', desc:'Instagram Reels için hazır ChatGPT promptları.', keywords:'instagram reels promptları chatgpt capcut canva'},
+  {title:'YouTube Shorts Promptları', url:'youtube-shorts-promptlari.html', desc:'YouTube Shorts için senaryo ve başlık promptları.', keywords:'youtube shorts promptları chatgpt'},
+  {title:'TikTok Video Promptları', url:'tiktok-video-promptlari.html', desc:'TikTok için kısa video promptları.', keywords:'tiktok video promptları'},
+  {title:'SSS', url:'sss.html', desc:'Yapay zekâ ve site hakkında sık sorulan sorular.', keywords:'sss sık sorulan sorular'},
+  {title:'Yeni Başlayanlar AI Rehberi', url:'yeni-baslayanlar-ai-rehberi.html', desc:'7 günlük başlangıç planı.', keywords:'yeni başlayanlar ai rehberi'},
+  {title:'Ücretsiz AI Araçları', url:'ucretsiz-ai-araclari.html', desc:'Başlangıç için ücretsiz AI araçları.', keywords:'ücretsiz ai araçları'},
+  {title:'AI Araç Maliyeti', url:'ai-arac-maliyeti.html', desc:'Başlangıç, video ve görsel paketleri için maliyet mantığı.', keywords:'ai araç maliyeti ücretsiz ücretli'},
+  {title:'Hangi AI Aracı Bana Uygun?', url:'hangi-ai-araci-bana-uygun.html', desc:'Yapmak istediğin işe göre araç seçimi.', keywords:'hangi ai aracı bana uygun'},
+  {title:'AI İçerik Takvimi', url:'ai-icerik-takvimi.html', desc:'Instagram, YouTube ve TikTok için içerik takvimi.', keywords:'ai içerik takvimi instagram youtube tiktok'},
+  {title:'Hakkımızda', url:'hakkimizda.html', desc:'Site amacı ve bağımsızlık bilgisi.', keywords:'hakkımızda site amaç'},
+  {title:'İletişim', url:'iletisim.html', desc:'Öneri ve iletişim sayfası.', keywords:'iletişim'},
+  {title:'Gizlilik Politikası', url:'gizlilik-politikasi.html', desc:'Gizlilik ve üçüncü taraf bağlantılar hakkında bilgi.', keywords:'gizlilik politikası'},
+  {title:'Kullanım Şartları', url:'kullanim-sartlari.html', desc:'Kazanç garantisi ve marka bağlantısı notları.', keywords:'kullanım şartları yasal marka'},
+  {title:'Google SEO Planı', url:'seo.html', desc:'Google’da görünür olmak için sitemap, başlık ve içerik planı.', keywords:'seo google sitemap search console dizin'}
 ];
 
 function initSiteSearch(){

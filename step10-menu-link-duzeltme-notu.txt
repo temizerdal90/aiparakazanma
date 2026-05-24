@@ -1,0 +1,3 @@
+Son eklenen sayfalar görünmüyordu çünkü sayfalar oluşturulmuştu ama ana sayfa/rehberler sayfasında link verilmemişti.
+Bu sürümde ana sayfaya ve rehberler sayfasına tüm yeni sayfalar için link merkezi eklendi.
+Ayrıca site içi arama index'i syntax hatası ihtimaline karşı temiz şekilde yeniden yazıldı.
