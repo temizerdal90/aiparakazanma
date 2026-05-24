@@ -1,0 +1,4 @@
+8. adım: Ana sayfa güçlendirildi.
+- Güçlü hero alanı eklendi.
+- Instagram, YouTube, TikTok, CapCut platform kartları eklendi.
+- AI araç paketleri, site içi arama vurgusu, yeni başlayan yol haritası, araç açıklamaları ve CTA eklendi.
