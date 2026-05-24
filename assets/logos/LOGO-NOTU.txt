@@ -1,0 +1,5 @@
+Bu klasörde şimdilik yer tutucu SVG ikonlar var.
+Resmî marka logolarını kullanacaksan, ilgili markanın Brand Resources / Brand Guidelines sayfasından indir.
+Aynı dosya adıyla değiştirirsen site otomatik kullanır.
+Örnek: elevenlabs.svg, canva.svg, capcut.svg, youtube.svg, instagram.svg
+Logoları değiştirme, renklerini bozma, site logosu veya favicon gibi kullanma.

@@ -20,3 +20,11 @@ footer{padding:34px 7%;text-align:center;background:#fff;border-top:1px solid #e
 .flow h3{margin:0 0 8px}.flow p{color:#4b5563;line-height:1.6}.flow ol{padding-left:22px;color:#4b5563;line-height:1.7}
 @media(max-width:1100px){.grid4{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr}}
 @media(max-width:800px){.hero,.grid,.grid2,.grid4{grid-template-columns:1fr}.hero h1{font-size:36px}header{align-items:flex-start;flex-direction:column}.tool-top{align-items:flex-start;flex-direction:column}}
+
+
+.logo-img{width:42px;height:42px;border-radius:12px;object-fit:contain;background:#f9fafb;border:1px solid #e5e7eb;padding:7px;flex:0 0 auto}
+.tool-brand{display:flex;align-items:center;gap:12px}
+.tool-meta{display:grid;gap:8px;margin:8px 0}
+.tool-meta div{background:#f9fafb;border:1px solid #e5e7eb;border-radius:14px;padding:10px;color:#4b5563;line-height:1.45}
+.tool-meta b{color:#111827}
+.brand-note{background:#fff7ed;border:1px solid #fed7aa;color:#7c2d12;border-radius:20px;padding:18px;line-height:1.65;font-size:14px;margin-top:24px}
