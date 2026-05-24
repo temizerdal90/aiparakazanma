@@ -270,3 +270,90 @@ body.theme-tools .badge{background:#dcfce7!important;color:#166534!important}
 .home-stat div{text-align:left}
 .home-stat b{line-height:1}
 .home-stat span{display:block;margin-top:4px}
+
+
+/* Step 12 ana sayfa kazanç alanları */
+.home-stat.income-stat{
+  grid-template-columns:repeat(3,1fr);
+}
+.income-stat div{
+  min-height:118px;
+}
+.income-stat b{
+  font-size:22px;
+}
+.income-stat small{
+  display:block;
+  margin-top:6px;
+  color:#cbd5e1;
+  line-height:1.45;
+  font-size:13px;
+}
+.income-area-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.income-area-card{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:24px;
+  padding:24px;
+  box-shadow:0 10px 28px rgba(17,24,39,.06);
+  text-decoration:none;
+  color:#111827;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.income-area-card:hover{
+  border-color:#86efac;
+  background:#f0fdf4;
+  transform:translateY(-2px);
+}
+.income-area-card .icon{
+  width:54px;
+  height:54px;
+  border-radius:18px;
+  display:grid;
+  place-items:center;
+  font-size:28px;
+  background:linear-gradient(135deg,#dcfce7,#dbeafe);
+}
+.income-area-card h3{
+  margin:4px 0 0;
+  font-size:22px;
+}
+.income-area-card p{
+  color:#4b5563;
+  line-height:1.6;
+  margin:0;
+}
+.income-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:auto;
+}
+.income-tags span{
+  background:#f9fafb;
+  border:1px solid #e5e7eb;
+  color:#374151;
+  border-radius:999px;
+  padding:7px 9px;
+  font-weight:900;
+  font-size:12px;
+}
+.income-warning{
+  margin-top:18px;
+  background:#fff7ed;
+  border:1px solid #fed7aa;
+  color:#7c2d12;
+  border-radius:20px;
+  padding:18px;
+  line-height:1.65;
+}
+@media(max-width:1000px){
+  .income-area-grid{grid-template-columns:1fr}
+  .home-stat.income-stat{grid-template-columns:1fr}
+}
