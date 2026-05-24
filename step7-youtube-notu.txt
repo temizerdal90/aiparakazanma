@@ -1,0 +1,4 @@
+7. adım: youtube.html sayfası zenginleştirildi.
+- Shorts, uzun video, canlı yayın bölümleri eklendi.
+- ChatGPT → ElevenLabs → Canva → CapCut → YouTube Studio iş akışı eklendi.
+- İlgili araç kartları, örnek senaryo, thumbnail ve YouTube SEO bölümü eklendi.

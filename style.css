@@ -123,3 +123,28 @@ footer{padding:34px 7%;text-align:center;background:#fff;border-top:1px solid #e
     grid-template-columns:1fr;
   }
 }
+
+
+/* Step 7 YouTube sayfası */
+.platform-hero-card{background:#fff;border-radius:28px;padding:28px;box-shadow:0 20px 60px rgba(17,24,39,.18);color:#111827}
+.platform-hero-card .big-icon{height:120px;border-radius:22px;background:linear-gradient(135deg,#dbeafe,#dcfce7);display:grid;place-items:center;font-size:58px;margin-bottom:20px}
+.flow-line{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.flow-line span{background:#ecfdf5;color:#166534;border:1px solid #bbf7d0;border-radius:999px;padding:9px 12px;font-weight:900;font-size:13px}
+.info-card{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:24px;box-shadow:0 10px 28px rgba(17,24,39,.06)}
+.info-card h3{font-size:24px;margin:0 0 10px}
+.info-card p,.info-card li{color:#4b5563;line-height:1.65}
+.info-card ul,.info-card ol{padding-left:22px}
+.example-box{background:#0f172a;color:#f9fafb;border-radius:24px;padding:24px;line-height:1.7;box-shadow:0 10px 28px rgba(17,24,39,.08)}
+.example-box h3{margin:0 0 12px;color:#86efac}
+.example-box code{white-space:pre-wrap;color:#e5e7eb;font-family:Arial,Helvetica,sans-serif}
+.step-list{counter-reset:step;display:grid;gap:14px}
+.step-item{background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:18px;display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start}
+.step-item:before{counter-increment:step;content:counter(step);width:42px;height:42px;border-radius:50%;background:#22c55e;color:#052e16;display:grid;place-items:center;font-weight:900}
+.step-item h3{margin:0 0 6px}
+.step-item p{margin:0;color:#4b5563;line-height:1.55}
+.tool-mini{display:flex;align-items:flex-start;gap:12px;background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:18px}
+.tool-mini img{width:42px;height:42px;border-radius:12px;background:#f9fafb;border:1px solid #e5e7eb;padding:7px}
+.tool-mini h3{margin:0 0 6px;font-size:19px}
+.tool-mini p{margin:0;color:#4b5563;line-height:1.45}
+.youtube-badge{display:inline-block;background:#fee2e2;color:#991b1b;border-radius:999px;padding:8px 12px;font-weight:900;margin-bottom:14px}
+@media(max-width:900px){.step-item{grid-template-columns:1fr}.platform-hero-card .big-icon{height:100px}}
