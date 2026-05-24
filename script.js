@@ -501,3 +501,12 @@ document.addEventListener("DOMContentLoaded", function(){
     buildSmartPrompt();
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", function(){
+  const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  document.querySelectorAll('.side-nav a, .mobile-panel a').forEach(a => {
+    const href = (a.getAttribute('href') || '').toLowerCase();
+    if(href === current){ a.classList.add('active'); }
+  });
+});
