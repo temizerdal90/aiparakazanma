@@ -87,3 +87,39 @@ footer{padding:34px 7%;text-align:center;background:#fff;border-top:1px solid #e
 .prompt-example strong{color:#111827}
 .prompt-mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 @media(max-width:1000px){.prompt-layout{grid-template-columns:1fr}.prompt-sidebar{position:static}.prompt-mini-grid{grid-template-columns:1fr}}
+
+
+/* Step 6 prompt görünüm düzeltmesi */
+.prompt-card{
+  overflow:hidden;
+}
+.prompt-badges{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px !important;
+  align-items:stretch;
+}
+.prompt-badge{
+  display:block !important;
+  width:100%;
+  min-height:auto !important;
+  height:auto !important;
+  padding:9px 10px !important;
+  border-radius:12px !important;
+  font-size:12px !important;
+  line-height:1.35 !important;
+  white-space:normal !important;
+  overflow-wrap:anywhere;
+}
+.prompt-text{
+  max-height:none !important;
+  overflow:visible !important;
+}
+.prompt-card h3{
+  line-height:1.25;
+}
+@media(max-width:700px){
+  .prompt-badges{
+    grid-template-columns:1fr;
+  }
+}
