@@ -1,0 +1,4 @@
+9. adım: instagram.html sayfası zenginleştirildi.
+- Reels, kaydırmalı paylaşım, hikâye bölümleri eklendi.
+- ChatGPT → Canva → ElevenLabs → CapCut → Instagram iş akışı eklendi.
+- Araç kartları, içerik fikirleri, örnek senaryo ve profil/SEO bölümü eklendi.
