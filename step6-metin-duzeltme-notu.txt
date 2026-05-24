@@ -1,0 +1,1 @@
+Promptlarda geçen 'niş' kelimesi daha anlaşılır olması için 'konu alanın' olarak değiştirildi. Örnek: [konu/niş] yerine [konu alanın].
