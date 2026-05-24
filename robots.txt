@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://aiparakazanma.com/sitemap.xml
+
+Sitemap: https://www.aiparakazanma.com/sitemap.xml
