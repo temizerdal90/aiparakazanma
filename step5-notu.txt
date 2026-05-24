@@ -1,0 +1,6 @@
+5. adım: AI Araçları sayfası profesyonelleştirildi.
+
+- Araç paketleri eklendi.
+- Her araçta logo alanı, kategori, seviye, ücret bilgisi, platform, iş akışı, kullanım zamanı ve resmi site linki var.
+- Karşılaştırma tablosu eklendi.
+- Marka/logolar için uzun yasal not eklendi.

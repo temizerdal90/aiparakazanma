@@ -8,20 +8,68 @@
 <main>
 <section class="hero">
   <div>
-    <div class="badge">Logolu ve tıklanabilir AI araç listesi</div>
-    <h1>Yapay zekâ araçları rehberi</h1>
-    <p>Metin, video, görsel, ses, müzik, sunum, web sitesi ve araştırma için kullanılabilecek araçlar. Her kartta logo alanı, kullanım platformu, iş akışı ve resmî site bağlantısı var.</p>
+    <div class="badge">Profesyonel AI araçları rehberi</div>
+    <h1>Hangi yapay zekâ aracı ne işe yarar?</h1>
+    <p>Metin, görsel, video, ses, müzik, araştırma ve web sitesi için araçları; kullanım platformu, iş akışı, zorluk seviyesi ve resmî site bağlantısıyla birlikte incele.</p>
+    <div class="quick-links">
+      <a href="#paketler">Araç paketleri</a>
+      <a href="#arac-listesi">Araç listesi</a>
+      <a href="#karsilastirma">Karşılaştırma</a>
+    </div>
   </div>
   <div class="box">
     <div class="visual">🛠️</div>
-    <h2>Logo sistemi hazır</h2>
-    <p>Şimdilik güvenli yer tutucu ikonlar var. Resmî logoları indirince aynı dosya adlarıyla <strong>assets/logos/</strong> içine koyarsın, otomatik değişir.</p>
+    <h2>Nasıl kullanılır?</h2>
+    <p>Önce yapmak istediğin işi seç. Sonra araç paketinden akışı gör. En son ilgili prompt sayfasına geç.</p>
   </div>
 </section>
 
-<section>
-  <h2 class="title">Araçları filtrele</h2>
-  <p class="sub">Kategoriye göre araçları süz. Dış bağlantılar yeni sekmede açılır.</p>
+<section id="paketler">
+  <h2 class="title">Başlangıç için araç paketleri</h2>
+  <p class="sub">Ziyaretçi tek tek araç seçmek yerine, yapmak istediği işe göre hazır kombinasyon görür.</p>
+  <div class="grid">
+<div class="stack-card">
+  <h3>Instagram Reels Paketi</h3>
+  <p>Yüz göstermeden kısa video üretmek için başlangıç paketi.</p>
+  <div class="stack-flow"><span>ChatGPT</span><span>Canva</span><span>ElevenLabs</span><span>CapCut</span><span>Instagram</span></div>
+  <p class="muted">Senaryo ChatGPT, kapak Canva, ses ElevenLabs, kurgu CapCut.</p>
+</div>
+<div class="stack-card">
+  <h3>YouTube Shorts Paketi</h3>
+  <p>Hızlı kısa video denemeleri için sade akış.</p>
+  <div class="stack-flow"><span>ChatGPT</span><span>Canva</span><span>CapCut</span><span>YouTube</span></div>
+  <p class="muted">Önce konu test edilir; çalışan Shorts daha sonra uzun videoya çevrilir.</p>
+</div>
+<div class="stack-card">
+  <h3>TikTok Video Paketi</h3>
+  <p>Kısa, hızlı ve trend odaklı video üretimi.</p>
+  <div class="stack-flow"><span>ChatGPT</span><span>ElevenLabs</span><span>CapCut</span><span>TikTok</span></div>
+  <p class="muted">TikTok için hızlı kanca, dikey kurgu ve altyazı önemlidir.</p>
+</div>
+<div class="stack-card">
+  <h3>AI Video Paketi</h3>
+  <p>Daha ileri seviye kısa sahne ve tanıtım videosu.</p>
+  <div class="stack-flow"><span>ChatGPT</span><span>Runway/Pika/Kling</span><span>ElevenLabs</span><span>CapCut</span></div>
+  <p class="muted">Önce kısa sahnelerle deneme yapılmalı; maliyet kontrol edilmeli.</p>
+</div>
+<div class="stack-card">
+  <h3>Blog / SEO Paketi</h3>
+  <p>Google’dan trafik almak için içerik üretim akışı.</p>
+  <div class="stack-flow"><span>Perplexity</span><span>ChatGPT/Claude</span><span>Canva</span><span>Vercel</span></div>
+  <p class="muted">Araştırma, yazı, görsel ve yayınlama adımları ayrılır.</p>
+</div>
+<div class="stack-card">
+  <h3>Müzik / Jingle Paketi</h3>
+  <p>Kısa tanıtım, intro veya sosyal medya sesi için.</p>
+  <div class="stack-flow"><span>ChatGPT</span><span>Suno/Udio</span><span>CapCut</span></div>
+  <p class="muted">Söz ve stil ChatGPT, müzik Suno/Udio, video montaj CapCut.</p>
+</div>
+</div>
+</section>
+
+<section id="arac-listesi">
+  <h2 class="title">AI araçlarını filtrele</h2>
+  <p class="sub">Kategoriye göre araçları süz. Logolar şimdilik yer tutucu ikonlardır; resmî logo dosyaları eklendiğinde aynı alanda görünecek.</p>
   <div class="filterbar">
     <button class="active" onclick="filterTools('all',this)">Tümü</button>
     <button onclick="filterTools('video',this)">Video</button>
@@ -40,12 +88,92 @@
     </div>
     <span class="tag">Metin / Genel</span>
   </div>
-  <p>Metin, fikir, plan, senaryo, prompt, kod ve araştırma desteği.</p>
+  <p>Fikir, metin, prompt, senaryo, kod, plan ve sayfa taslağı için ana üretim aracı.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Instagram, YouTube, TikTok, blog, web sitesi</div>
     <div><b>İş akışı:</b> Fikir → taslak → düzenleme → yayın metni</div>
+    <div><b>Ne zaman kullanılır?</b> Başlangıç için şart gibi</div>
   </div>
-  <div><a class="btn small dark" href="https://chatgpt.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://chatgpt.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
+</div>
+
+<div class="tool" data-cat="genel metin">
+  <div class="tool-top">
+    <div class="tool-brand">
+      <img class="logo-img" src="assets/logos/gemini.svg" alt="Gemini logo">
+      <h3>Gemini</h3>
+    </div>
+    <span class="tag">Genel / Araştırma</span>
+  </div>
+  <p>Google ekosistemiyle uyumlu fikir, araştırma, görsel destekli analiz ve alternatif metin üretimi.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Blog, araştırma, içerik fikri, karşılaştırma</div>
+    <div><b>İş akışı:</b> Araştırma → fikir → içerik planı</div>
+    <div><b>Ne zaman kullanılır?</b> ChatGPT alternatifi</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://gemini.google.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
+</div>
+
+<div class="tool" data-cat="metin genel">
+  <div class="tool-top">
+    <div class="tool-brand">
+      <img class="logo-img" src="assets/logos/claude.svg" alt="Claude logo">
+      <h3>Claude</h3>
+    </div>
+    <span class="tag">Metin</span>
+  </div>
+  <p>Uzun metin, analiz, özet, rehber yazısı ve daha doğal metin düzenleme için güçlü araç.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Uzun rehber, blog, e-posta, analiz</div>
+    <div><b>İş akışı:</b> Taslak → uzun içerik → düzenleme</div>
+    <div><b>Ne zaman kullanılır?</b> Uzun yazı için güçlü</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://claude.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
+</div>
+
+<div class="tool" data-cat="genel metin">
+  <div class="tool-top">
+    <div class="tool-brand">
+      <img class="logo-img" src="assets/logos/perplexity.svg" alt="Perplexity logo">
+      <h3>Perplexity</h3>
+    </div>
+    <span class="tag">Araştırma</span>
+  </div>
+  <p>Kaynaklı araştırma, konu tarama ve güncel bilgi kontrolü için kullanılır.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> SEO yazısı, karşılaştırma, araç inceleme</div>
+    <div><b>İş akışı:</b> Araştırma → doğrulama → içerik taslağı</div>
+    <div><b>Ne zaman kullanılır?</b> Araştırma için iyi</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.perplexity.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="tasarim gorsel sosyal">
@@ -56,12 +184,20 @@
     </div>
     <span class="tag">Tasarım</span>
   </div>
-  <p>Sosyal medya postu, carousel, kapak, sunum, afiş ve hızlı tasarım.</p>
+  <p>Sosyal medya postu, carousel, kapak, sunum, afiş, thumbnail ve web görseli üretimi.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Instagram, YouTube, TikTok, web sitesi</div>
     <div><b>İş akışı:</b> ChatGPT metin → Canva tasarım → platforma yükleme</div>
+    <div><b>Ne zaman kullanılır?</b> Başlangıç için çok uygun</div>
   </div>
-  <div><a class="btn small dark" href="https://www.canva.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.canva.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="video sosyal">
@@ -72,12 +208,20 @@
     </div>
     <span class="tag">Video</span>
   </div>
-  <p>Reels, Shorts, TikTok, altyazı, kurgu, şablon ve kısa video düzenleme.</p>
+  <p>Reels, Shorts, TikTok, altyazı, kurgu, şablon ve kısa video düzenleme aracı.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Instagram Reels, YouTube Shorts, TikTok</div>
     <div><b>İş akışı:</b> Senaryo/ses/görsel → CapCut kurgu → yayın</div>
+    <div><b>Ne zaman kullanılır?</b> Kısa video için temel araç</div>
   </div>
-  <div><a class="btn small dark" href="https://www.capcut.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.capcut.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="ses video">
@@ -88,12 +232,20 @@
     </div>
     <span class="tag">Ses</span>
   </div>
-  <p>AI seslendirme, metinden konuşma, anlatıcı sesi ve video sesleri.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Reels, Shorts, TikTok, AI video</div>
-    <div><b>İş akışı:</b> ChatGPT metin → ElevenLabs ses → CapCut kurgu</div>
+  <p>AI seslendirme, metinden konuşma, anlatıcı sesi ve video sesleri için kullanılır.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
   </div>
-  <div><a class="btn small dark" href="https://elevenlabs.io/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Reels, Shorts, TikTok, AI video, eğitim videosu</div>
+    <div><b>İş akışı:</b> ChatGPT metin → ElevenLabs ses → CapCut kurgu</div>
+    <div><b>Ne zaman kullanılır?</b> Sesli video için güçlü</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://elevenlabs.io/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="video gorsel">
@@ -104,12 +256,20 @@
     </div>
     <span class="tag">AI Video</span>
   </div>
-  <p>AI video üretimi, görselden video ve yaratıcı sahne denemeleri.</p>
+  <p>AI video üretimi, görselden video, kısa sahne ve yaratıcı video denemeleri.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta/Zor</span>
+    <span class="score-pill">Plan: Ücretli ağırlıklı</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> AI video, reklam sahnesi, kısa klip</div>
     <div><b>İş akışı:</b> ChatGPT prompt → Runway video → CapCut montaj</div>
+    <div><b>Ne zaman kullanılır?</b> Daha ileri seviye</div>
   </div>
-  <div><a class="btn small dark" href="https://runwayml.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://runwayml.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="video">
@@ -121,11 +281,19 @@
     <span class="tag">AI Video</span>
   </div>
   <p>Kısa AI video ve hareketli sahne denemeleri için video üretim aracı.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> TikTok, Reels, Shorts</div>
-    <div><b>İş akışı:</b> ChatGPT sahne promptu → Pika video → CapCut</div>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
   </div>
-  <div><a class="btn small dark" href="https://pika.art/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> TikTok, Reels, Shorts, kısa sahne</div>
+    <div><b>İş akışı:</b> ChatGPT sahne promptu → Pika video → CapCut</div>
+    <div><b>Ne zaman kullanılır?</b> Deneme için iyi</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://pika.art/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="video">
@@ -137,11 +305,19 @@
     <span class="tag">AI Video</span>
   </div>
   <p>Metinden/görselden video üretimi ve yaratıcı kısa sahne denemeleri.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> AI video, kısa sahne</div>
-    <div><b>İş akışı:</b> ChatGPT prompt → Kling video → CapCut</div>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
   </div>
-  <div><a class="btn small dark" href="https://klingai.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> AI video, kısa sahne, sosyal video</div>
+    <div><b>İş akışı:</b> ChatGPT prompt → Kling video → CapCut</div>
+    <div><b>Ne zaman kullanılır?</b> Video kalitesi için denenebilir</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://klingai.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="gorsel tasarim">
@@ -153,11 +329,19 @@
     <span class="tag">Görsel</span>
   </div>
   <p>Yüksek kaliteli AI görsel, konsept sanat, kapak ve sahne üretimi.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretli ağırlıklı</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> YouTube thumbnail, blog kapak, konsept görsel</div>
     <div><b>İş akışı:</b> ChatGPT görsel prompt → Midjourney → Canva/CapCut</div>
+    <div><b>Ne zaman kullanılır?</b> Kaliteli görsel için güçlü</div>
   </div>
-  <div><a class="btn small dark" href="https://www.midjourney.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.midjourney.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="gorsel tasarim">
@@ -169,11 +353,19 @@
     <span class="tag">Görsel</span>
   </div>
   <p>Yazı içeren görseller, logo fikirleri, poster ve tipografi denemeleri.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Kapak, poster, yazılı görsel</div>
-    <div><b>İş akışı:</b> ChatGPT fikir → Ideogram görsel → Canva düzenleme</div>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
   </div>
-  <div><a class="btn small dark" href="https://ideogram.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Kapak, poster, yazılı görsel, marka fikri</div>
+    <div><b>İş akışı:</b> ChatGPT fikir → Ideogram görsel → Canva düzenleme</div>
+    <div><b>Ne zaman kullanılır?</b> Yazılı görselde iyi</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://ideogram.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="gorsel tasarim">
@@ -184,12 +376,20 @@
     </div>
     <span class="tag">Görsel</span>
   </div>
-  <p>Karakter, ürün sahnesi, konsept tasarım ve görsel üretim.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Sosyal medya, ürün görseli, web görseli</div>
-    <div><b>İş akışı:</b> ChatGPT prompt → Leonardo görsel → Canva düzenleme</div>
+  <p>Karakter, ürün sahnesi, konsept tasarım ve sosyal medya görseli üretimi.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
   </div>
-  <div><a class="btn small dark" href="https://leonardo.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Ürün görseli, web görseli, sosyal medya</div>
+    <div><b>İş akışı:</b> ChatGPT prompt → Leonardo görsel → Canva düzenleme</div>
+    <div><b>Ne zaman kullanılır?</b> Görsel üretim için alternatif</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://leonardo.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="gorsel tasarim">
@@ -200,12 +400,20 @@
     </div>
     <span class="tag">Görsel</span>
   </div>
-  <p>Tasarım odaklı AI görsel ve metin efekti üretimi.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Tasarım, afiş, ürün görseli</div>
-    <div><b>İş akışı:</b> Prompt → Firefly görsel → tasarımda kullan</div>
+  <p>Tasarım odaklı AI görsel, metin efekti ve yaratıcı üretim aracı.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
   </div>
-  <div><a class="btn small dark" href="https://firefly.adobe.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Afiş, ürün görseli, tasarım işleri</div>
+    <div><b>İş akışı:</b> Prompt → Firefly görsel → tasarımda kullan</div>
+    <div><b>Ne zaman kullanılır?</b> Adobe ekosistemi için iyi</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://firefly.adobe.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="ses muzik">
@@ -216,12 +424,20 @@
     </div>
     <span class="tag">Ses / Müzik</span>
   </div>
-  <p>AI müzik, jingle, kısa tema ve sosyal medya ses fikirleri.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Video intro, jingle, müzik fikri</div>
-    <div><b>İş akışı:</b> ChatGPT söz/stil → Suno müzik → CapCut video</div>
+  <p>AI müzik, jingle, kısa tema ve sosyal medya ses fikirleri üretimi.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
   </div>
-  <div><a class="btn small dark" href="https://suno.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Video intro, jingle, kısa müzik fikri</div>
+    <div><b>İş akışı:</b> ChatGPT söz/stil → Suno müzik → CapCut video</div>
+    <div><b>Ne zaman kullanılır?</b> Müzik fikri için güçlü</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://suno.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="ses muzik">
@@ -232,12 +448,20 @@
     </div>
     <span class="tag">Ses / Müzik</span>
   </div>
-  <p>AI müzik üretimi ve şarkı demo denemeleri için araç.</p>
+  <p>AI müzik üretimi ve şarkı demo denemeleri için kullanılır.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Müzik demo, jingle, tema</div>
     <div><b>İş akışı:</b> ChatGPT söz/stil → Udio demo → video içinde kullan</div>
+    <div><b>Ne zaman kullanılır?</b> Suno alternatifi</div>
   </div>
-  <div><a class="btn small dark" href="https://www.udio.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.udio.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="video ses">
@@ -249,11 +473,19 @@
     <span class="tag">Video / Ses</span>
   </div>
   <p>Podcast, video metin düzenleme, ses temizleme ve içerik kurgusu.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Podcast, uzun video, eğitim videosu</div>
     <div><b>İş akışı:</b> Kayıt → Descript düzenleme → yayına hazırlık</div>
+    <div><b>Ne zaman kullanılır?</b> Ses/video düzenleme için iyi</div>
   </div>
-  <div><a class="btn small dark" href="https://www.descript.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.descript.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="video">
@@ -264,12 +496,20 @@
     </div>
     <span class="tag">AI Video</span>
   </div>
-  <p>Avatar video, sunum videosu ve AI presenter içerikleri.</p>
+  <p>Avatar video, sunum videosu, çok dilli video ve AI presenter üretimi.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretli ağırlıklı</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Eğitim, tanıtım, yüzsüz video</div>
     <div><b>İş akışı:</b> Metin → avatar video → CapCut/YouTube</div>
+    <div><b>Ne zaman kullanılır?</b> Avatar video için iyi</div>
   </div>
-  <div><a class="btn small dark" href="https://www.heygen.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.heygen.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="video">
@@ -281,11 +521,19 @@
     <span class="tag">AI Video</span>
   </div>
   <p>Kurumsal avatar video, eğitim videosu ve anlatıcı video üretimi.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Eğitim, sunum, kurumsal anlatım</div>
-    <div><b>İş akışı:</b> Metin → avatar anlatım → yayın</div>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretli ağırlıklı</span>
   </div>
-  <div><a class="btn small dark" href="https://www.synthesia.io/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-meta">
+    <div><b>Hangi platformda?</b> Eğitim, kurumsal anlatım, sunum</div>
+    <div><b>İş akışı:</b> Metin → avatar anlatım → yayın</div>
+    <div><b>Ne zaman kullanılır?</b> Kurumsal videoda iyi</div>
+  </div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.synthesia.io/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="metin tasarim">
@@ -296,12 +544,20 @@
     </div>
     <span class="tag">Sunum</span>
   </div>
-  <p>AI sunum, doküman ve web sayfası taslakları üretme.</p>
+  <p>AI sunum, doküman ve web sayfası taslakları üretir.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Sunum, rehber, eğitim içeriği</div>
     <div><b>İş akışı:</b> Konu → Gamma sunum → PDF/web paylaşım</div>
+    <div><b>Ne zaman kullanılır?</b> Sunum için iyi</div>
   </div>
-  <div><a class="btn small dark" href="https://gamma.app/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://gamma.app/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 
 <div class="tool" data-cat="metin genel">
@@ -312,60 +568,20 @@
     </div>
     <span class="tag">Verimlilik</span>
   </div>
-  <p>Not alma, doküman düzenleme, özetleme ve çalışma alanı içinde AI.</p>
+  <p>Not alma, doküman düzenleme, özetleme ve içerik üretim takibi.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Kolay</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Planlama, içerik takvimi, not sistemi</div>
+    <div><b>Hangi platformda?</b> İçerik takvimi, not sistemi, planlama</div>
     <div><b>İş akışı:</b> Fikir → Notion plan → üretim takibi</div>
+    <div><b>Ne zaman kullanılır?</b> Düzen kurmak için iyi</div>
   </div>
-  <div><a class="btn small dark" href="https://www.notion.com/product/ai" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
-</div>
-
-<div class="tool" data-cat="genel metin">
-  <div class="tool-top">
-    <div class="tool-brand">
-      <img class="logo-img" src="assets/logos/perplexity.svg" alt="Perplexity logo">
-      <h3>Perplexity</h3>
-    </div>
-    <span class="tag">Araştırma</span>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://www.notion.com/product/ai" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
   </div>
-  <p>Kaynaklı araştırma, konu tarama ve hızlı bilgi derleme.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Blog, karşılaştırma, rehber</div>
-    <div><b>İş akışı:</b> Araştırma → doğrulama → ChatGPT ile yazıya çevirme</div>
-  </div>
-  <div><a class="btn small dark" href="https://www.perplexity.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
-</div>
-
-<div class="tool" data-cat="genel metin">
-  <div class="tool-top">
-    <div class="tool-brand">
-      <img class="logo-img" src="assets/logos/gemini.svg" alt="Gemini logo">
-      <h3>Gemini</h3>
-    </div>
-    <span class="tag">Genel</span>
-  </div>
-  <p>Metin, araştırma, görsel destekli fikir üretimi ve Google ekosistemi.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Blog, araştırma, içerik fikri</div>
-    <div><b>İş akışı:</b> Araştırma/fikir → içerik planı → yayın</div>
-  </div>
-  <div><a class="btn small dark" href="https://gemini.google.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
-</div>
-
-<div class="tool" data-cat="metin genel">
-  <div class="tool-top">
-    <div class="tool-brand">
-      <img class="logo-img" src="assets/logos/claude.svg" alt="Claude logo">
-      <h3>Claude</h3>
-    </div>
-    <span class="tag">Metin</span>
-  </div>
-  <p>Uzun metin, analiz, özet ve yazı düzenleme için AI asistan.</p>
-  <div class="tool-meta">
-    <div><b>Hangi platformda?</b> Uzun rehber, analiz, e-posta, içerik</div>
-    <div><b>İş akışı:</b> Taslak → düzenleme → uzun içerik</div>
-  </div>
-  <div><a class="btn small dark" href="https://claude.ai/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
 </div>
 
 <div class="tool" data-cat="web kod">
@@ -377,14 +593,38 @@
     <span class="tag">Web</span>
   </div>
   <p>Web sitesi yayınlama, domain bağlama ve hızlı frontend hosting.</p>
+  <div class="tool-score">
+    <span class="score-pill">Seviye: Orta</span>
+    <span class="score-pill">Plan: Ücretsiz/Ücretli</span>
+  </div>
   <div class="tool-meta">
     <div><b>Hangi platformda?</b> Web sitesi, araç sayfası, rehber sitesi</div>
     <div><b>İş akışı:</b> GitHub kod → Vercel yayın → domain bağlama</div>
+    <div><b>Ne zaman kullanılır?</b> Bizim sitede kullanılan sistem</div>
   </div>
-  <div><a class="btn small dark" href="https://vercel.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a></div>
+  <div class="tool-actions">
+    <a class="btn small dark" href="https://vercel.com/" target="_blank" rel="noopener nofollow">Resmî siteye git</a>
+    <a class="btn small" href="promptlar.html">İlgili promptlara bak</a>
+  </div>
 </div>
 </div>
+</section>
 
+<section id="karsilastirma">
+  <h2 class="title">Hangi iş için hangi araç?</h2>
+  <p class="sub">Hızlı karar vermek için en basit karşılaştırma.</p>
+  <table class="compare-table">
+    <thead><tr><th>İş türü</th><th>Önerilen araçlar</th><th>Ne üretir?</th></tr></thead>
+    <tbody>
+<tr><td>Metin / fikir</td><td>ChatGPT, Claude, Gemini</td><td>Prompt, senaryo, açıklama, SEO taslağı</td></tr>
+<tr><td>Instagram görsel</td><td>Canva, Ideogram, Leonardo AI</td><td>Carousel, kapak, post, görsel fikir</td></tr>
+<tr><td>Kısa video kurgu</td><td>CapCut</td><td>Reels, Shorts, TikTok, altyazı, hızlı montaj</td></tr>
+<tr><td>Seslendirme</td><td>ElevenLabs</td><td>Anlatıcı sesi, video sesi, kısa reklam metni</td></tr>
+<tr><td>AI video sahnesi</td><td>Runway, Pika, Kling</td><td>Kısa sahne, ürün tanıtımı, görselden video</td></tr>
+<tr><td>Müzik / jingle</td><td>Suno, Udio</td><td>Kısa tema, intro, jingle, müzik denemesi</td></tr>
+<tr><td>Araştırma</td><td>Perplexity, Gemini</td><td>Kaynak kontrolü, konu araştırması, karşılaştırma</td></tr>
+</tbody>
+  </table>
   <div class="brand-note">
     <strong>Marka/logolar hakkında:</strong> Bu sitede adı geçen platformlar, marka adları ve logolar ilgili sahiplerinin ticari markalarıdır. AI Para Kazanma; Instagram, YouTube, TikTok, Canva, CapCut, ElevenLabs, Runway, Suno veya adı geçen diğer markalarla resmî olarak bağlantılı, sponsorlu, onaylı veya partner bir proje değildir. Logolar ve marka adları yalnızca ilgili platformları tanıtmak ve kullanıcıyı doğru araca yönlendirmek amacıyla kullanılabilir.
   </div>
