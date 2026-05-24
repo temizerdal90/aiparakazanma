@@ -23,10 +23,14 @@ function copyPrompt(id){
 
 
 const SITE_SEARCH_INDEX = [
+  {title:"EN - AI Tools", url:"/en/ai-tools.html", desc:"English AI tools page.", keywords:"english en ai tools"},
+  {title:"EN - Instagram Reels Prompts", url:"/en/instagram-reels-prompts.html", desc:"English Instagram Reels prompts.", keywords:"english en instagram reels prompts"},
+  {title:"EN - YouTube Shorts Prompts", url:"/en/youtube-shorts-prompts.html", desc:"English YouTube Shorts prompts.", keywords:"english en youtube shorts prompts"},
+  {title:"EN - TikTok Video Prompts", url:"/en/tiktok-video-prompts.html", desc:"English TikTok video prompts.", keywords:"english en tiktok video prompts"},
   {title:"AI Hesaplamalar", url:"hesaplamalar.html", desc:"Araç maliyeti, içerik üretim süresi ve tahmini gelir hesaplama.", keywords:"hesaplama araç maliyeti içerik süresi rpm adsense"},
   {title:'Ana Sayfa', url:'index.html', desc:'AI para kazanma rehberi, ana bölümler ve başlangıç.', keywords:'ana sayfa ai para kazanma yapay zeka rehber'},
   {title:'Rehberler', url:'rehberler.html', desc:'Instagram, YouTube, TikTok, AI video ve SEO rehberleri.', keywords:'rehberler instagram youtube tiktok ai video seo'},
-  {title:'Instagram AI Rehberi', url:'instagram.html', desc:'Instagram Reels, kaydırmalı paylaşım, hikâye ve içerik planı.', keywords:'instagram reels carousel hikaye post prompt'},
+  {title:'Instagram AI Rehberi', url:'instagram.html', desc:'Instagram Reels, çok sayfalı paylaşım, hikâye ve içerik planı.', keywords:'instagram reels çok sayfalı paylaşım hikaye post prompt'},
   {title:'YouTube AI Rehberi', url:'youtube.html', desc:'YouTube Shorts, uzun video, senaryo ve kanal planı.', keywords:'youtube shorts uzun video kanal senaryo prompt'},
   {title:'TikTok AI Rehberi', url:'tiktok-ai-rehberi.html', desc:'TikTok için ChatGPT, ElevenLabs ve CapCut iş akışı.', keywords:'tiktok ai rehberi video prompt capcut'},
   {title:'AI Video Rehberi', url:'ai-video.html', desc:'Runway, Pika, Kling, ElevenLabs ve CapCut iş akışı.', keywords:'ai video runway pika kling elevenlabs capcut'},
