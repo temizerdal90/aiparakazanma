@@ -1,1 +1,0 @@
-Prompt kartlarında Platform / Yapay zekâ / Araç / Çıktı etiketleri çok büyük görünüyordu. CSS düzeltmesiyle bu alanlar kompakt bilgi kutularına çevrildi. Mobilde tek sütuna iner.

@@ -1,5 +1,0 @@
-Genel kontrol yapıldı.
-- Ana sayfadaki 'Platform 4' mantığı '4 ana platform: Instagram, YouTube, TikTok, CapCut' olarak netleştirildi.
-- Yazım/terim düzeltmeleri yapıldı: prompt, Instagram, YouTube, TikTok, CapCut, ElevenLabs, ChatGPT vb.
-- Sayfa türlerine renk teması eklendi: Instagram pembe/turuncu, YouTube kırmızı, TikTok camgöbeği/pembe, CapCut koyu, Promptlar mor, Araçlar yeşil.
-- Sitemap ve Search Console tarafına dokunulmadı.
