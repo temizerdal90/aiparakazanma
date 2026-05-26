@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Shorts Prompt Stüdyosu | AI Para Kazanma</title>
+<meta name="description" content="Konuya göre sahne, diyalog, kamera, başlık, açıklama ve hashtag üreten YouTube Shorts prompt aracı.">
+<link rel="stylesheet" href="style.css">
+<link rel="canonical" href="https://www.aiparakazanma.com/shorts-prompt-studyosu.html">
+<meta property="og:title" content="YouTube Shorts Prompt Stüdyosu | AI Para Kazanma">
+<meta property="og:description" content="Konuya göre sahne, diyalog, kamera, başlık, açıklama ve hashtag üreten YouTube Shorts prompt aracı.">
+<meta property="og:url" content="https://www.aiparakazanma.com/shorts-prompt-studyosu.html">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9289852053561118"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html"><span>AI</span>ParaKazanma</a>
+  <nav class="nav">
+    <a href="basla.html">Başla</a>
+    <a href="platformlar.html">Platformlar</a>
+    <a href="promptlar.html">Promptlar</a>
+    <a href="shorts-prompt-studyosu.html">Prompt Stüdyosu</a>
+    <a href="ai-icerik-asistani.html">AI Asistan</a>
+    <a href="ai-araclari.html">Araçlar</a>
+  </nav>
+  <button class="menuBtn" onclick="document.body.classList.toggle('menu-open')">Menü</button>
+</header>
+<div class="mobileNav">
+  <a href="basla.html">Başla</a>
+  <a href="platformlar.html">Platformlar</a>
+  <a href="promptlar.html">Promptlar</a>
+  <a href="shorts-prompt-studyosu.html">Prompt Stüdyosu</a>
+  <a href="ai-icerik-asistani.html">AI Asistan</a>
+  <a href="tum-kayitlar.html">Tüm Kayıtlar</a>
+</div>
+
+<main>
+<section class="pageHero">
+  <div class="eyebrow">Gemini API deneme + API\'siz yedek</div>
+  <h1>YouTube Shorts Prompt Stüdyosu</h1>
+  <p>Konu yaz, Gemini API ile sahne sahne YouTube Shorts video promptu al. API ayarı yoksa aynı sayfada API'siz yedek üretici de çalışır.</p>
+</section>
+<section class="content">
+  <div class="demoNote">
+    <strong>Bu sayfanın amacı:</strong> Gemini API denemesi yapmak. API anahtarı Vercel'e eklenirse canlı AI üretir; API yoksa aynı ekranda API'siz yedek üretici çalışır.
+  </div>
+
+  <div class="shortsStudio">
+    <aside class="studioPanel">
+      <label>Konu / hikâye fikri</label>
+      <textarea id="shortsTopic" rows="6">3 kişi arabası bozulmuş ve tamirciye geliyorlar, bir bakıyorlar usta kadın. Hepsi şaşırıp kalıyor ama kadın çok güzel ve işinin ehli.</textarea>
+
+      <div class="exampleStrip">
+        <button onclick="document.getElementById('shortsTopic').value='3 kişi arabası bozulmuş ve tamirciye geliyorlar, bir bakıyorlar usta kadın. Hepsi şaşırıp kalıyor ama kadın çok güzel ve işinin ehli.'; buildShortsPrompt()">Oto sanayi<small>Kadın usta ters köşe</small></button>
+        <button onclick="document.getElementById('shortsTopic').value='Bir öğrenci sınıfta herkesin yanlış bildiği tarihi bir olayı 30 saniyede anlatıyor ve öğretmen bile şaşırıyor.'; buildShortsPrompt()">Okul<small>Tarihi bilgi kısa video</small></button>
+        <button onclick="document.getElementById('shortsTopic').value='Bir müşteri markette küçük bir hatayı büyütüyor ama çalışan tek cümleyle herkesi susturuyor.'; buildShortsPrompt()">Market<small>Günlük hayat komedisi</small></button>
+      </div>
+
+      <label>Süre</label>
+      <select id="shortsDuration">
+        <option>30</option>
+        <option>45</option>
+        <option>60</option>
+      </select>
+
+      <label>Tür</label>
+      <select id="shortsGenre">
+        <option>Komedi + şaşırtıcı sahne</option>
+        <option>Dramatik + güçlü mesaj</option>
+        <option>Bilgilendirici + merak uyandıran</option>
+        <option>Hikâye + ters köşe</option>
+      </select>
+
+      <label>Görüntü tarzı</label>
+      <select id="shortsStyle">
+        <option>Gerçekçi, modern Türk sosyal medya videosu</option>
+        <option>Sinematik, hızlı kesmeler, doğal oyunculuk</option>
+        <option>Telefon kamerası gibi doğal ve samimi</option>
+        <option>Reklam filmi kalitesinde temiz görüntü</option>
+      </select>
+
+      <label>Final tipi</label>
+      <select id="shortsEnding">
+        <option>Güçlü mesajlı final</option>
+        <option>Komik ters köşe final</option>
+        <option>Merak uyandıran açık final</option>
+        <option>Paylaşılabilir tek cümle final</option>
+      </select>
+
+      <button id="aiShortsBtn" class="btn hot" onclick="buildShortsPromptAI()">Gemini ile üret</button>
+      <button class="btn primary" onclick="buildShortsPrompt()">API\'siz üret</button>
+      <button id="copyShortsBtn" class="btn" onclick="copyShortsPrompt()">Promptu kopyala</button>
+    </aside>
+
+    <section class="promptPaper">
+      <h2>Üretilen video promptu</h2>
+      <pre id="shortsPromptOutput"></pre>
+    </section>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div>
+    <strong>AI Para Kazanma</strong>
+    <p>Yapay zekâ ile içerik üretmek isteyenler için sade rehber, prompt ve iş akışı merkezi.</p>
+  </div>
+  <div class="footerLinks">
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="iletisim.html">İletişim</a>
+    <a href="gizlilik-politikasi.html">Gizlilik</a>
+    <a href="kullanim-sartlari.html">Kullanım Şartları</a>
+    <a href="tum-kayitlar.html">Tüm Kayıtlar</a>
+    <a href="sitemap.xml">Sitemap</a>
+  </div>
+  <small>Bu site Instagram, YouTube, TikTok, Canva, CapCut, ElevenLabs ve adı geçen diğer markalarla resmî olarak bağlantılı değildir; tüm marka adları/logolar ilgili sahiplerine aittir. İçerikler eğitim amaçlıdır, kesin kazanç vaadi içermez.</small>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
