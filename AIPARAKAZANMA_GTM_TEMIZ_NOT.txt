@@ -1,0 +1,12 @@
+Aiparakazanma GTM temiz sürüm
+
+Yeni Google Tag Manager ID: GTM-PRH96H4N
+- Eski Google Analytics gtag kodları temizlendi.
+- Eski GTM kodları temizlendi.
+- Yeni GTM head kodu tüm HTML sayfalarına eklendi.
+- Yeni GTM noscript kodu body açılışından sonra eklendi.
+- AdSense kodu korunur; ads.txt var.
+- Gemini API klasörü yok.
+
+Commit mesajı:
+Aiparakazanma GTM temiz kurulum
