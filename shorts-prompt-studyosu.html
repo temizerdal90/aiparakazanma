@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D73CW4QE4H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D73CW4QE4H');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>YouTube Shorts Prompt Stüdyosu | AI Para Kazanma</title>
@@ -37,13 +46,13 @@
 
 <main>
 <section class="pageHero">
-  <div class="eyebrow">Gemini API deneme + API\'siz yedek</div>
+  <div class="eyebrow">API'siz güçlü demo</div>
   <h1>YouTube Shorts Prompt Stüdyosu</h1>
-  <p>Konu yaz, Gemini API ile sahne sahne YouTube Shorts video promptu al. API ayarı yoksa aynı sayfada API'siz yedek üretici de çalışır.</p>
+  <p>Konu yaz, sahne sahne YouTube Shorts video promptu al. Süre, tür, tarz ve final mesajını değiştir; çıktı anında güncellensin.</p>
 </section>
 <section class="content">
   <div class="demoNote">
-    <strong>Bu sayfanın amacı:</strong> Gemini API denemesi yapmak. API anahtarı Vercel'e eklenirse canlı AI üretir; API yoksa aynı ekranda API'siz yedek üretici çalışır.
+    <strong>Bu sayfanın amacı:</strong> API bağlamadan önce ziyaretçinin gerçekten işine yarayan ekranı bulmak. Bu sürüm şablon değil; konuya göre ortam, karakter, akış, diyalog, başlık, açıklama ve hashtag üretir.
   </div>
 
   <div class="shortsStudio">
@@ -88,8 +97,7 @@
         <option>Paylaşılabilir tek cümle final</option>
       </select>
 
-      <button id="aiShortsBtn" class="btn hot" onclick="buildShortsPromptAI()">Gemini ile üret</button>
-      <button class="btn primary" onclick="buildShortsPrompt()">API\'siz üret</button>
+      <button class="btn hot" onclick="buildShortsPrompt()">Promptu üret</button>
       <button id="copyShortsBtn" class="btn" onclick="copyShortsPrompt()">Promptu kopyala</button>
     </aside>
 
