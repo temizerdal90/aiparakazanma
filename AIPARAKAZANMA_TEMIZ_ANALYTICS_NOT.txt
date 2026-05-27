@@ -1,0 +1,11 @@
+Aiparakazanma temiz sürüm
+
+Google Analytics ID: G-GM313DYTYL
+- Gemini API klasörü kaldırıldı.
+- API anahtarı gerektiren dosya yok.
+- Google Analytics tüm HTML sayfalarına eklendi.
+- AdSense kodu ve ads.txt garanti edildi.
+- sitemap.xml ve robots.txt güncellendi.
+
+Commit mesajı:
+Aiparakazanma Analytics eklendi API kaldirildi

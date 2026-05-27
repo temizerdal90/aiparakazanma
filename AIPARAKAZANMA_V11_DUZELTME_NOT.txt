@@ -1,0 +1,8 @@
+Aiparakazanma V11 düzeltme notu
+
+- Ana sayfadaki SEO/alternatif arama bölümü üst taraftan alınıp sayfanın en altına taşındı.
+- yapay-zeka-ile-icerik-uretimi.html canonical adresi kendi sayfasına düzeltildi.
+- Footer bağlantılarına AI İçerik linki eklendi.
+- Mobil menüde tekrar eden AI Asistan bağlantısı temizlendi.
+- API/Gemini dosyası yoktur; site API anahtarı içermez.
+- AdSense ve GA4 kodları korunmuştur.

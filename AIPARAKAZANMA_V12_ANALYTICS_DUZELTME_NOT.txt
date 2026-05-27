@@ -1,0 +1,7 @@
+Aiparakazanma V12 düzeltme notu
+
+- Kullanıcının istemediği API deneme açıklaması kaldırıldı.
+- Google Analytics / GA4 ölçüm kimliği güncellendi:
+  G-GM313DYTYL
+- Tüm HTML sayfalarındaki gtag kodları yeni ölçüm kimliğiyle güncellendi.
+- Full paket olarak hazırlanmıştır; GitHub’a komple atılabilir.

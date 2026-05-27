@@ -1,0 +1,6 @@
+V10: Alternatif SEO kelimeleri eklendi.
+- index.html title/description ve hero metni güçlendirildi.
+- yapay-zeka-ile-icerik-uretimi.html yeni SEO rehber sayfası eklendi.
+- Footer'a AI İçerik linki eklendi.
+- sitemap.xml ve tum-kayitlar.html güncellendi.
+Hedef aramalar: AI ile içerik üretimi, yapay zekâ ile para kazanma, yapay zekâ promptları, YouTube Shorts promptları, Instagram Reels promptları, TikTok video promptları, CapCut altyazı.

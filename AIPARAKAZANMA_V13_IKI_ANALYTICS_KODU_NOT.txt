@@ -1,0 +1,8 @@
+Aiparakazanma V13 güncellemesi
+
+Tüm HTML sayfalarında Google Analytics/gtag kodu şu iki ölçüm kimliğiyle güncellendi:
+- G-D73CW4QE4H
+- G-P8DEH66RWC
+
+Eski G-GM313DYTYL ölçüm kimliği HTML sayfalarından kaldırıldı.
+AdSense, ads.txt, sitemap, robots.txt ve içerik dosyalarına dokunulmadı.
