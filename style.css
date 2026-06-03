@@ -5,3 +5,19 @@
 .langSwitch{display:inline-flex;align-items:center;gap:6px;margin-left:6px;padding:8px 10px;border:1px solid var(--line);border-radius:999px;background:#fff;color:#475569;font-weight:950}.langSwitch a{padding:0;border-radius:0;color:#334155}.langSwitch a:hover{background:transparent;color:var(--blue)}
 .video-demo-wrap{display:grid;justify-items:center;gap:14px}.video-demo{display:block;width:min(100%,390px);max-height:76vh;aspect-ratio:9/16;object-fit:contain;background:#0f172a;border:1px solid var(--line);border-radius:24px;box-shadow:0 18px 42px rgba(15,23,42,.14)}.video-demo-note{max-width:620px;margin:0;color:var(--muted);line-height:1.55;text-align:center;font-weight:800}
 @media(max-width:720px){.video-demo{width:min(100%,330px);max-height:70vh;border-radius:18px}}
+.tocBox,.answerBox,.guideBlock,.noteBox,.relatedGuides{background:#fff;border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 12px 28px rgba(15,23,42,.05);margin-bottom:18px}
+.answerBox{background:linear-gradient(135deg,#eff6ff,#fff);border-color:#bfdbfe}
+.noteBox{background:linear-gradient(135deg,#fff7ed,#fff);border-color:#fed7aa;color:#7c2d12}
+.guideBlock h3,.tocBox h3,.answerBox h3,.noteBox h3,.relatedGuides h3{margin:0 0 10px;font-size:24px}
+.guideBlock p,.answerBox p,.noteBox p,.relatedGuides p{color:#334155;line-height:1.72;margin:10px 0}
+.guideBlock ul,.guideBlock ol,.tocBox ul,.relatedGuides ul{margin:10px 0 0;padding-left:22px;color:#334155;line-height:1.7}
+.tocBox ul{columns:2}
+.workflowSteps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:14px}
+.workflowStep{background:#f8fafc;border:1px solid var(--line);border-radius:18px;padding:16px;line-height:1.6;color:#334155}
+.workflowStep b{display:block;color:#111827;margin-bottom:6px}
+.compareTable{width:100%;border-collapse:separate;border-spacing:0;margin-top:12px;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:#fff}
+.compareTable th,.compareTable td{padding:13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;color:#334155;line-height:1.55}
+.compareTable th{background:#f8fafc;color:#111827}
+.compareTable tr:last-child td{border-bottom:0}
+.miniPrompt{background:#0f172a;color:#e5e7eb;border-radius:16px;padding:14px;line-height:1.55;margin-top:10px;white-space:pre-wrap}
+@media(max-width:900px){.workflowSteps{grid-template-columns:1fr}.tocBox ul{columns:1}.compareTable{display:block;overflow-x:auto}}
