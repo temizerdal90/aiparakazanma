@@ -1,417 +1,384 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.aiparakazanma.com/ai-araclari.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-arac-maliyeti.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-icerik-asistani.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-icerik-takvimi.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-video-promptlari.html</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/basla.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/capcut-altyazi-video-rehberi.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/capcut-kurgu-promptlari.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/chatgpt-ile-para-kazanma.html</loc>
-    <lastmod>2026-05-29</lastmod>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-araclari-karsilastirma-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
-  </url>
-  <url>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-arac-maliyeti.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-icerik-asistani.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-icerik-takvimi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-blog-ve-seo-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-blog-yazisi-yazma.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-dijital-urun-hazirlama.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-ekitap-hazirlama.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-gorsel-uretimi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-icerik-fikri-bulma.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-is-fikri-bulma.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-muzik-ve-ses-uretimi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-otomasyon-fikirleri.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-oyun-fikri-gelistirme.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-para-kazanma-gercekleri.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-para-kazanma-yol-haritasi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-prompt-nasil-yazilir.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-seo-icerik-plani.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-site-yapma-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-ile-video-uretimi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/ai-video-promptlari.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/basla.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/capcut-altyazi-video-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/capcut-kurgu-promptlari.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/chatgpt-ile-para-kazanma.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/chatgpt-ile-para-kazanma-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/ai-blog-content-guide.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/ai-content-calendar.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/ai-content-safety-and-ethics.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/ai-prompt-writing-guide.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/ai-side-hustle-ideas.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/ai-tools.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/beginner-ai-guide.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/canva-ai-content-workflow.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/capcut-video-editing-workflow.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/digital-products-with-ai.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/elevenlabs-voiceover-workflow.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/faceless-youtube-channel-with-ai.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/faq.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/free-ai-tools.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/index.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/instagram-reels-prompts.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/make-money-with-ai.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/make-money-with-chatgpt.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/prompt-library.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/tiktok-video-prompts.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/which-ai-tool-is-right-for-me.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/en/youtube-shorts-prompts.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/gizlilik-politikasi.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/hakkimizda.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/hangi-ai-araci-bana-uygun.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/iletisim.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/instagram-reels-promptlari.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/instagram.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/instagram-ai-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/instagram-reels-promptlari.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/is-akislari.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/kullanim-sartlari.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/platformlar.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/prompt-kutuphanesi.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
+    <priority>0.75</priority>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/promptlar.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
+    <priority>0.75</priority>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/shorts-prompt-studyosu.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/sss.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/tiktok-video-promptlari.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/tiktok.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/tiktok-ai-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/tiktok-video-promptlari.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/tum-kayitlar.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/ucretsiz-ai-araclari.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/yapay-zeka-ile-icerik-uretimi.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/yapay-zeka-ile-para-kazanma.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
+    <priority>0.75</priority>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/yeni-baslayanlar-ai-rehberi.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/youtube-shorts-promptlari.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/youtube.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/index.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/make-money-with-ai.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/make-money-with-chatgpt.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/youtube-shorts-prompts.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/tiktok-video-prompts.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/instagram-reels-prompts.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/ai-tools.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/prompt-library.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/beginner-ai-guide.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/free-ai-tools.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/which-ai-tool-is-right-for-me.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/ai-content-calendar.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/faceless-youtube-channel-with-ai.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/ai-blog-content-guide.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/digital-products-with-ai.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/canva-ai-content-workflow.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/capcut-video-editing-workflow.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/elevenlabs-voiceover-workflow.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/ai-side-hustle-ideas.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/ai-prompt-writing-guide.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/ai-content-safety-and-ethics.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/en/faq.html</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-site-yapma-rehberi.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-oyun-fikri-gelistirme.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-blog-yazisi-yazma.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-dijital-urun-hazirlama.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-ekitap-hazirlama.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-gorsel-uretimi.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-video-uretimi.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-muzik-ve-ses-uretimi.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-is-fikri-bulma.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-otomasyon-fikirleri.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-seo-icerik-plani.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-icerik-fikri-bulma.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-prompt-nasil-yazilir.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
+  </url>  <url>
     <loc>https://www.aiparakazanma.com/yeni-baslayanlar-icin-ai-yol-haritasi.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.aiparakazanma.com/ai-ile-para-kazanma-gercekleri.html</loc>
-    <lastmod>2026-06-03</lastmod>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/youtube.html</loc>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
-  </url>
-</urlset>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/youtube-shorts-ai-rehberi.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>  <url>
+    <loc>https://www.aiparakazanma.com/youtube-shorts-promptlari.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url></urlset>
+
