@@ -1,26 +1,26 @@
 no,title,category,note
-26,Keyword map,SEO,Group queries
-27,Outline check,Content,Check order
-28,Intro text,Writing,Opening draft
-29,Ending text,Writing,Closing draft
-30,Question list,SEO,Common questions
-31,Link plan,SEO,Related pages
-32,Visual brief,Creative,Image idea
-33,Alt text,SEO,Image note
-34,Caption,Social,Short text
-35,Newsletter,Email,Weekly topic
-36,Course outline,Education,Lesson list
-37,Lesson notes,Education,Simple note
-38,Quiz set,Education,Practice list
-39,Worksheet,Education,Exercise plan
-40,Guide steps,Content,Step list
-41,Comparison,Content,Compare points
-42,Tool note,Content,Neutral note
-43,Case outline,Content,Story order
-44,Persona note,Planning,Audience note
-45,Calendar,Planning,Monthly topics
-46,Research note,Workflow,Organize items
-47,Brief template,Workflow,Creator brief
-48,Script outline,Video,Scene order
-49,Hook options,Video,Opening ideas
-50,Closing line,Video,End text
+26,Anahtar kelime haritasi,SEO,Sorgulari gruplama
+27,Taslak kontrolu,Icerik,Sira kontrolu
+28,Giris metni,Yazim,Acilis taslagi
+29,Bitis metni,Yazim,Kapanis taslagi
+30,Soru listesi,SEO,Yaygin sorular
+31,Baglanti plani,SEO,Ilgili sayfalar
+32,Gorsel brief,Tasarim,Gorsel fikri
+33,Alt metin,SEO,Gorsel aciklamasi
+34,Aciklama metni,Sosyal,Kisa metin
+35,Bulten fikri,Eposta,Haftalik konu
+36,Kurs taslagi,Egitim,Ders listesi
+37,Ders notu,Egitim,Basit anlatim
+38,Test sorulari,Egitim,Alistirma listesi
+39,Calisma kagidi,Egitim,Egzersiz plani
+40,Rehber adimlari,Icerik,Adim listesi
+41,Karsilastirma,Icerik,Farklari yazma
+42,Arac notu,Icerik,Tarafsiz not
+43,Ornek olay,Icerik,Hikaye sirasi
+44,Kitle notu,Planlama,Okuyucu profili
+45,Takvim,Planlama,Aylik konular
+46,Arastirma notu,Is akisi,Verileri duzenleme
+47,Brief sablonu,Is akisi,Uretici notu
+48,Senaryo taslagi,Video,Sahne sirasi
+49,Giris kancalari,Video,Acilis fikirleri
+50,Kapanis cumlesi,Video,Bitis metni
