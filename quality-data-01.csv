@@ -4,3 +4,23 @@ no,title,category,note
 3,Meta aciklama,SEO,Sayfa ozeti
 4,Icerik plani,Icerik,Bolum sirasi
 5,SSS plani,SEO,Soru listesi
+6,Urun metni,Icerik,Ozellik anlatimi
+7,Kategori metni,Icerik,Kategori aciklamasi
+8,Eposta taslagi,Is akisi,Kisa mesaj
+9,Sosyal medya plani,Sosyal,Haftalik fikir
+10,Kisa video fikri,Video,Sahne akisi
+11,Video aciklamasi,Video,Ozet metin
+12,Podcast ozeti,Ses,Bolum notu
+13,Toplanti notu,Is akisi,Gorev listesi
+14,Yanit taslagi,Is akisi,Nazik cevap
+15,Mesaj sablonu,Is akisi,Tekrar kullanilir cevap
+16,Hizmet metni,Pazarlama,Sade anlatim
+17,Acilis sayfasi,Web,Sayfa bolumu
+18,Yazi guncelleme,Icerik,Eski icerigi yenileme
+19,Kalite kontrol,Icerik,Tekrarlari azaltma
+20,Sade dil,Yazim,Metni anlasilir yapma
+21,Ceviri taslagi,Yazim,Ilk ceviri
+22,Ozet cikarma,Yazim,Ana fikirler
+23,Tablo hazirlama,Verimlilik,Karsilastirma
+24,Kontrol listesi,Verimlilik,Adim listesi
+25,Fikir puanlama,Planlama,Onceliklendirme
