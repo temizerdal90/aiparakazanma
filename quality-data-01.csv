@@ -1,26 +1,6 @@
 no,title,category,note
-1,Blog idea,Content,Topic planning
-2,Title draft,Content,Headline variants
-3,Meta text,SEO,Page summary
-4,Content plan,Content,Draft outline
-5,FAQ plan,SEO,Question list
-6,Product text,Content,Feature explanation
-7,Category text,Content,Helpful category copy
-8,Email draft,Workflow,Short message
-9,Social plan,Social,Weekly post plan
-10,Short video idea,Video,Scene outline
-11,Video description,Video,Summary text
-12,Podcast summary,Audio,Episode notes
-13,Meeting notes,Workflow,Task list
-14,Reply draft,Workflow,Polite response
-15,Message template,Workflow,Reusable response
-16,Service text,Marketing,Simple explanation
-17,Landing section,Web,Page block draft
-18,Article update,Content,Refresh old content
-19,Quality check,Content,Reduce repetition
-20,Plain language,Writing,Simplify text
-21,Translation draft,Writing,First translation
-22,Summary task,Writing,Main points
-23,Table task,Productivity,Compare items
-24,Checklist task,Productivity,Step list
-25,Idea scoring,Planning,Rank options
+1,Blog fikri,Icerik,Konu plani
+2,Baslik taslagi,Icerik,Baslik secenekleri
+3,Meta aciklama,SEO,Sayfa ozeti
+4,Icerik plani,Icerik,Bolum sirasi
+5,SSS plani,SEO,Soru listesi
